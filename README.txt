@@ -20,6 +20,9 @@ Sequence of CSS/ Page Creation
 
 .referral (Responsive)
 
+
+/***Style.css is for 01-21 ***/
+
 .pricing_1
 
 .step-1
@@ -42,4 +45,6 @@ Sequence of CSS/ Page Creation
 
 .Placed
 
-// Order management is missing
+
+/***Style.css is for 26-46 ***/
+
