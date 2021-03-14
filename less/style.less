@@ -920,6 +920,7 @@ footer {
 
     .services {
         .pt96;
+        .pb96;
 
         .swiper-button-next {
             right: 0;
@@ -977,83 +978,75 @@ footer {
             }
         }
 
-        .service_slide {
-            .pb96;
+        .content {
+            .bg;
+            width: 100%;
+            position: relative;
+            .tran(0.25s);
+            height: 100%;
 
-            .swiper-wrapper {
-                .swiper-slide {
-                    .content {
-                        .bg;
-                        width: 100%;
-                        position: relative;
-                        .tran(0.25s);
-                        height: 100%;
+            &::after {
+                .after;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 6px;
+                width: 0;
+                background: @col3;
+                .tran(0.25s);
+            }
 
-                        &::after {
-                            .after;
-                            bottom: 0;
-                            left: 0;
-                            right: 0;
-                            height: 6px;
-                            width: 0;
-                            background: @col3;
-                            .tran(0.25s);
-                        }
+            &:hover {
+                .shadow(@x: 0, @y: 0.875rem, @blur: 27px, @spread: -0.5rem, @alpha: 0.75);
+            }
 
-                        &:hover {
-                            .shadow(@x: 0, @y: 0.875rem, @blur: 27px, @spread: -0.5rem, @alpha: 0.75);
-                        }
+            &:hover::after {
+                width: 100%;
+            }
 
-                        &:hover::after {
-                            width: 100%;
-                        }
+            .image {
+                width: 100%;
+                height: 233px;
 
-                        .image {
-                            width: 100%;
-                            height: 233px;
+                img {
+                    .img_css;
+                }
+            }
 
-                            img {
-                                .img_css;
-                            }
-                        }
+            .texts {
+                padding: 32px 26px 26px;
+                height: 241px;
 
-                        .texts {
-                            padding: 32px 26px 26px;
-                            height: 241px;
+                .title {
+                    .mini_head;
+                    padding-bottom: 16px;
+                    width: 85%;
+                    margin: 0 auto;
+                    height: 47px;
+                    overflow: hidden;
+                }
 
-                            .title {
-                                .mini_head;
-                                padding-bottom: 16px;
-                                width: 85%;
-                                margin: 0 auto;
-                                height: 47px;
-                                overflow: hidden;
-                            }
+                .text_part {
+                    height: 72px;
+                    overflow: hidden;
 
-                            .text_part {
-                                height: 72px;
-                                overflow: hidden;
+                    h6 {
+                        .h6;
+                        text-align: center;
+                        line-height: 170%;
+                    }
 
-                                h6 {
-                                    .h6;
-                                    text-align: center;
-                                    line-height: 170%;
-                                }
+                    margin-bottom: 48px;
+                }
 
-                                margin-bottom: 48px;
-                            }
+                .mini_btn {
+                    padding-top: 0;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    width: 97px;
 
-                            .mini_btn {
-                                padding-top: 0;
-                                margin-left: 50%;
-                                transform: translateX(-50%);
-                                width: 97px;
-
-                                i {
-                                    bottom: 3px;
-                                }
-                            }
-                        }
+                    i {
+                        bottom: 3px;
                     }
                 }
             }
@@ -1083,8 +1076,11 @@ footer {
                     .tran(0.25s);
                 }
 
-                &:hover::after {
-                    height: 100%;
+                &:hover {
+                    background: @col1;
+                    &::after {
+                        height: 100%;
+                    }
                 }
 
                 .content {
@@ -3460,7 +3456,7 @@ footer {
     .partnership {
         .pt56;
         .pb96;
-        .bg;
+        background: @col5;
 
         .cmn_heading {
             padding-bottom: 41px;
@@ -7873,15 +7869,18 @@ footer {
             &:first-child .custom-control {
                 margin-top: 0;
             }
+
             .custom-control {
                 margin: 15px 0;
                 min-height: 205px;
                 padding: 0;
 
             }
-.custom-control-label {
-    margin : 0;
-}
+
+            .custom-control-label {
+                margin: 0;
+            }
+
             .img_part {
                 width: 100%;
                 height: 100%;
