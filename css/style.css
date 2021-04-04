@@ -378,6 +378,36 @@ ul {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+.btn {
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+.btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
 .cookie_part {
   position: fixed;
   bottom: 0;
@@ -628,7 +658,34 @@ footer .container .row .reservation .links a {
 .home_page .banner .container .banner_content a {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.home_page .banner .container .banner_content a:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.home_page .banner .container .banner_content a:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .home_page .banner .carousel.slide {
   height: 100%;
@@ -1575,7 +1632,34 @@ footer .container .row .reservation .links a {
 .service_page .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.service_page .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.service_page .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .service_page .banner .container .banner_bg {
   width: 100%;
@@ -2454,7 +2538,34 @@ footer .container .row .reservation .links a {
 .faq .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.faq .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.faq .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .faq .banner .container .banner_bg {
   width: 100%;
@@ -3353,7 +3464,34 @@ footer .container .row .reservation .links a {
 .blog .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.blog .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.blog .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .blog .banner .container .banner_bg {
   width: 100%;
@@ -4627,7 +4765,34 @@ footer .container .row .reservation .links a {
 .blog_open .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.blog_open .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.blog_open .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .blog_open .banner .container .banner_bg {
   width: 100%;
@@ -6279,7 +6444,34 @@ footer .container .row .reservation .links a {
 .our_location .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.our_location .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.our_location .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .our_location .banner .container .banner_bg {
   width: 100%;
@@ -7239,7 +7431,34 @@ footer .container .row .reservation .links a {
 .reseller .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.reseller .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.reseller .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .reseller .banner .container .banner_bg {
   width: 100%;
@@ -8213,7 +8432,34 @@ footer .container .row .reservation .links a {
 .affliate .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.affliate .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.affliate .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .affliate .banner .container .banner_bg {
   width: 100%;
@@ -9193,7 +9439,34 @@ footer .container .row .reservation .links a {
 .referral .banner .container .banner_content a.place_btn {
   padding: 0;
   margin: 0;
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
   text-transform: capitalize;
+}
+.referral .banner .container .banner_content a.place_btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.referral .banner .container .banner_content a.place_btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .referral .banner .container .banner_bg {
   width: 100%;
