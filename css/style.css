@@ -1,50 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Muli:400,700,800&display=swap');
 /*Global CSS Start From Here*/
-* {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-}
-textarea {
-  resize: none;
-}
-ol,
-ul {
-  list-style-type: none;
-}
-a,
-a:hover {
-  text-decoration: none;
-}
-img {
-  vertical-align: middle;
-}
-body {
-  overflow-x: hidden;
-  background: #f5f7fa;
-  font-family: 'Muli', sans-serif;
-}
-.btn,
-a,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-i,
-img,
-input,
-label,
-li,
-ol,
-p,
-span,
-ul {
-  padding: 0;
-  margin: 0;
-}
 /*color start*/
 /*color end*/
 /*font start*/
@@ -331,6 +286,92 @@ ul {
     transform: translateX(0);
   }
 }
+/*fix menu*/
+@-webkit-keyframes rd-navbar-slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes rd-navbar-slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes rd-navbar-slide-up {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@keyframes rd-navbar-slide-up {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+textarea {
+  resize: none;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  overflow-x: hidden;
+  background: #f5f7fa;
+  font-family: 'Muli', sans-serif;
+}
+.btn,
+a,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+input,
+label,
+li,
+ol,
+p,
+span,
+ul {
+  padding: 0;
+  margin: 0;
+}
 .mini_btn {
   padding-top: 56px;
   width: 100px;
@@ -529,52 +570,11 @@ footer .container .row .reservation .links a {
   color: #f5f7fa;
 }
 /* Footer Ends Here */
-/*fix menu*/
-@-webkit-keyframes rd-navbar-slide-down {
-  0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes rd-navbar-slide-down {
-  0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes rd-navbar-slide-up {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
-@keyframes rd-navbar-slide-up {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
 .rd-navbar,
 .rd-navbar-wrap {
   transition: 0.2s all ease-out;
 }
--bar-area {
+.bar-area {
   height: 106px;
   padding: 23.4px 0 !important;
 }
@@ -656,8 +656,6 @@ footer .container .row .reservation .links a {
   overflow: hidden;
 }
 .home_page .banner .container .banner_content a {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -675,6 +673,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .home_page .banner .container .banner_content a:hover {
@@ -1630,8 +1630,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .service_page .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -1649,6 +1647,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .service_page .banner .container .banner_content a.place_btn:hover {
@@ -2536,8 +2536,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .faq .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -2555,6 +2553,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .faq .banner .container .banner_content a.place_btn:hover {
@@ -3462,8 +3462,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .blog .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -3481,6 +3479,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .blog .banner .container .banner_content a.place_btn:hover {
@@ -4763,8 +4763,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .blog_open .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -4782,6 +4780,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .blog_open .banner .container .banner_content a.place_btn:hover {
@@ -6442,8 +6442,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .our_location .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -6461,6 +6459,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .our_location .banner .container .banner_content a.place_btn:hover {
@@ -7429,8 +7429,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .reseller .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -7448,6 +7446,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .reseller .banner .container .banner_content a.place_btn:hover {
@@ -8430,8 +8430,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .affliate .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -8449,6 +8447,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .affliate .banner .container .banner_content a.place_btn:hover {
@@ -9437,8 +9437,6 @@ footer .container .row .reservation .links a {
   padding-top: 0.43780px;
 }
 .referral .banner .container .banner_content a.place_btn {
-  padding: 0;
-  margin: 0;
   background: transparent;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -9456,6 +9454,8 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+  padding: 0;
+  margin: 0;
   text-transform: capitalize;
 }
 .referral .banner .container .banner_content a.place_btn:hover {
