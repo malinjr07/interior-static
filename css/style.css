@@ -1,50 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Muli:400,700,800&display=swap');
 /*Global CSS Start From Here*/
-* {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-}
-textarea {
-  resize: none;
-}
-ol,
-ul {
-  list-style-type: none;
-}
-a,
-a:hover {
-  text-decoration: none;
-}
-img {
-  vertical-align: middle;
-}
-body {
-  overflow-x: hidden;
-  background: #f5f7fa;
-  font-family: 'Muli', sans-serif;
-}
-.btn,
-a,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-i,
-img,
-input,
-lebel,
-li,
-ol,
-p,
-span,
-ul {
-  padding: 0;
-  margin: 0;
-}
 /*color start*/
 /*color end*/
 /*font start*/
@@ -218,36 +173,6 @@ ul {
   line-height: 170%;
   color: #363840;
 }
-.btn {
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7b7d84;
-  color: #f16334 !important;
-  border: 1px solid #f16334;
-  padding: 12px 23px;
-  border-radius: 0;
-  font-weight: 700;
-  text-transform: capitalize;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  transition: all linear 0.25s;
-}
-.btn:hover {
-  color: #ffffff !important;
-  background-color: #f16334;
-  border: 1px solid #f16334;
-}
-.btn:focus {
-  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-}
 .bg_css {
   background-attachment: fixed;
   -o-background-size: cover;
@@ -331,6 +256,92 @@ ul {
     transform: translateX(0);
   }
 }
+/*fix menu*/
+@-webkit-keyframes rd-navbar-slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes rd-navbar-slide-down {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes rd-navbar-slide-up {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+@keyframes rd-navbar-slide-up {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+textarea {
+  resize: none;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  overflow-x: hidden;
+  background: #f5f7fa;
+  font-family: 'Muli', sans-serif;
+}
+.btn,
+a,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+input,
+label,
+li,
+ol,
+p,
+span,
+ul {
+  padding: 0;
+  margin: 0;
+}
 .mini_btn {
   padding-top: 56px;
   width: 100px;
@@ -366,6 +377,36 @@ ul {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+.btn {
+  background: transparent;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #f16334 !important;
+  border: 1px solid #f16334;
+  padding: 12px 23px;
+  border-radius: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+.btn:hover {
+  color: #ffffff !important;
+  background-color: #f16334;
+  border: 1px solid #f16334;
+}
+.btn:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .cookie_part {
   position: fixed;
@@ -529,52 +570,11 @@ footer .container .row .reservation .links a {
   color: #f5f7fa;
 }
 /* Footer Ends Here */
-/*fix menu*/
-@-webkit-keyframes rd-navbar-slide-down {
-  0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@keyframes rd-navbar-slide-down {
-  0% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes rd-navbar-slide-up {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
-@keyframes rd-navbar-slide-up {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-}
 .rd-navbar,
 .rd-navbar-wrap {
   transition: 0.2s all ease-out;
 }
--bar-area {
+.bar-area {
   height: 106px;
   padding: 23.4px 0 !important;
 }
@@ -874,6 +874,7 @@ footer .container .row .reservation .links a {
 }
 .home_page .services {
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 .home_page .services .swiper-button-next {
   right: 0;
@@ -927,10 +928,7 @@ footer .container .row .reservation .links a {
   -moz-box-shadow: -5px 5px 1.25rem -0.5rem rgba(0, 0, 0, 0.75);
   box-shadow: -5px 5px 1.25rem -0.5rem rgba(0, 0, 0, 0.75);
 }
-.home_page .services .service_slide {
-  padding-bottom: 96px;
-}
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content {
+.home_page .services .content {
   background: #ffffff;
   width: 100%;
   position: relative;
@@ -941,7 +939,7 @@ footer .container .row .reservation .links a {
   transition: all linear 0.25s;
   height: 100%;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content::after {
+.home_page .services .content::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -956,35 +954,35 @@ footer .container .row .reservation .links a {
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content:hover {
+.home_page .services .content:hover {
   -webkit-box-shadow: 0 0.875rem 27px -0.5rem rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0.875rem 27px -0.5rem rgba(0, 0, 0, 0.75);
   box-shadow: 0 0.875rem 27px -0.5rem rgba(0, 0, 0, 0.75);
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content:hover::after {
+.home_page .services .content:hover::after {
   width: 100%;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .image {
+.home_page .services .content .image {
   width: 100%;
   height: 233px;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .image img {
+.home_page .services .content .image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts {
+.home_page .services .content .texts {
   padding: 32px 26px 26px;
   height: 241px;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .title {
+.home_page .services .content .texts .title {
   padding-bottom: 16px;
   width: 85%;
   margin: 0 auto;
   height: 47px;
   overflow: hidden;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .title h5 {
+.home_page .services .content .texts .title h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -992,7 +990,7 @@ footer .container .row .reservation .links a {
   line-height: 20px;
   color: #363840;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .title h4 {
+.home_page .services .content .texts .title h4 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1000,12 +998,12 @@ footer .container .row .reservation .links a {
   line-height: 170%;
   color: #363840;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .text_part {
+.home_page .services .content .texts .text_part {
   height: 72px;
   overflow: hidden;
   margin-bottom: 48px;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .text_part h6 {
+.home_page .services .content .texts .text_part h6 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1014,13 +1012,13 @@ footer .container .row .reservation .links a {
   text-align: center;
   line-height: 170%;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .mini_btn {
+.home_page .services .content .texts .mini_btn {
   padding-top: 0;
   margin-left: 50%;
   transform: translateX(-50%);
   width: 97px;
 }
-.home_page .services .service_slide .swiper-wrapper .swiper-slide .content .texts .mini_btn i {
+.home_page .services .content .texts .mini_btn i {
   bottom: 3px;
 }
 .home_page .hiw {
@@ -1053,6 +1051,9 @@ footer .container .row .reservation .links a {
   -ms-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
   transition: all linear 0.25s;
+}
+.home_page .hiw .nav_list .nav_items:hover {
+  background: #ffffff;
 }
 .home_page .hiw .nav_list .nav_items:hover::after {
   height: 100%;
@@ -10403,7 +10404,7 @@ footer .container .row .reservation .links a {
 .pricing_1 .partnership {
   padding-top: 56px;
   padding-bottom: 96px;
-  background: #ffffff;
+  background: #f5f7fa;
 }
 .pricing_1 .partnership .cmn_heading {
   padding-bottom: 41px;
