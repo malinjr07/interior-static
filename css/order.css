@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700|Muli:400,700,800&display=swap');
+@import "style.css";
 /*Global CSS Start From Here*/
 * {
   padding: 0;
@@ -34612,3 +34613,825 @@ footer .container .row .reservation .links a {
   }
 }
 /*==================Responsive part end ===================================*/
+/*=============================== Affiliate dashboard part start==============================*/
+/*common css*/
+.mt_77 {
+  margin-top: 77px;
+}
+.mt_40 {
+  margin-top: 40px;
+}
+.mt_56 {
+  margin-top: 56px;
+}
+.c_f {
+  color: #4267B2;
+}
+.c_t {
+  color: #1DA1F2;
+}
+.c_l {
+  color: #0E76A8;
+}
+.mr_25 {
+  margin-right: 25px;
+}
+.pb_8 {
+  padding-bottom: 32px !important;
+}
+.active {
+  background: #F16334 !important;
+}
+/*common css*/
+.affliate_dashboard .mini_heading {
+  margin-left: 10px;
+}
+.affliate_dashboard .mini_heading h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #7B7D84;
+}
+.affliate_dashboard .reward_part {
+  margin-left: 10px;
+  margin-top: 24px;
+  padding: 27px 0px 24px 24px;
+  background: #708AE6;
+}
+.affliate_dashboard .reward_part .reward_notice {
+  padding-bottom: 24px;
+}
+.affliate_dashboard .reward_part .reward_notice .nt_img {
+  height: 20px;
+  width: 28px;
+  float: left;
+  margin-right: 24px;
+}
+.affliate_dashboard .reward_part .reward_notice .nt_cont h4 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  color: #363840;
+  color: #ffffff;
+}
+.affliate_dashboard .reward_part ul {
+  padding-left: 14px;
+}
+.affliate_dashboard .reward_part ul li {
+  list-style: disc;
+  color: #ffffff;
+}
+.affliate_dashboard .reward_part ul li h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #ffffff;
+}
+.affliate_dashboard .commision_part {
+  padding: 56px;
+  background: #ffffff;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+.affliate_dashboard .commision_part .cm_content h4 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  color: #363840;
+}
+.affliate_dashboard .commision_part .cm_content .cm_s_cont {
+  padding-left: 20px;
+}
+.affliate_dashboard .commision_part .cm_content .cm_s_cont h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+}
+.affliate_dashboard .commision_part .cm_icon ul {
+  float: right;
+}
+.affliate_dashboard .commision_part .cm_icon ul li {
+  float: left;
+  padding-left: 36px;
+}
+.affliate_dashboard .commision_part .cm_icon ul li a i {
+  font-size: 20px;
+}
+/*=============================== Affiliate dashboard part end==============================*/
+/*===============================  dashboard part start==============================*/
+.dashboart_part .mini_heading {
+  margin-left: 10px;
+}
+.dashboart_part .mini_heading h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #7B7D84;
+}
+.dashboart_part .dash_counter {
+  padding: 24px 68px 24px 40px;
+  margin-top: 24px;
+  margin-left: 10px;
+  background: #ffffff;
+}
+.dashboart_part .dash_counter .counter {
+  float: left;
+  font-family: 'Muli', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #363840;
+  padding-right: 16px;
+}
+.dashboart_part .dash_counter h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  padding-top: 12px;
+}
+.dashboart_part .active_project_content {
+  background: #ffffff;
+  margin-left: 10px;
+  margin-right: 25px;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+.dashboart_part .active_project_content:hover {
+  -webkit-box-shadow: 10px 6px 6px 0 rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 10px 6px 6px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 10px 6px 6px 0 rgba(0, 0, 0, 0.17);
+}
+.dashboart_part .active_project_content .active_pro_img {
+  height: 100%;
+  width: 100%;
+  background: #f1f1f1;
+}
+.dashboart_part .active_project_content .active_pro_img img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.dashboart_part .active_project_content .active_pro_content {
+  padding: 32px 0 40px 40px;
+}
+.dashboart_part .active_project_content .active_pro_content h3 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #363840;
+}
+.dashboart_part .active_project_content .active_pro_content ul {
+  padding-top: 40px;
+}
+.dashboart_part .active_project_content .active_pro_content ul li {
+  padding-bottom: 11px;
+}
+.dashboart_part .active_project_content .active_pro_content ul li h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #999BA2;
+  line-height: 18px;
+}
+.dashboart_part .active_project_content .active_pro_content ul li h6 span {
+  font-weight: 700;
+  color: #7B7D84;
+}
+.dashboart_part .active_project_content .active_pro_iteam {
+  padding: 44px 40px 40px 0;
+}
+.dashboart_part .active_project_content .active_pro_iteam h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  font-weight: 700;
+  color: #363840;
+  padding-bottom: 30px;
+  line-height: 18px;
+}
+.dashboart_part .active_project_content .active_pro_iteam h6.pt-0 {
+  padding-bottom: 42px;
+}
+.dashboart_part .active_project_content .active_pro_iteam .mini_btn {
+  padding: 0;
+}
+/*===============================   dashboard part end==============================*/
+/*===============================    invoice part start==============================*/
+.invoice_part .mini_heading {
+  margin-left: 10px;
+}
+.invoice_part .mini_heading h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #7B7D84;
+}
+.invoice_part .inv_form {
+  margin-left: 10px;
+  padding: 16px 24px;
+  background: #EAEDF2;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+.invoice_part .inv_form .order_no p {
+  font-family: 'Muli', sans-serif;
+  color: #7B7D84;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 170%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.invoice_part .form_cont {
+  margin-left: 10px;
+  padding: 24px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+}
+.invoice_part .form_cont .order_no h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #363840;
+}
+.invoice_part .form_cont .bt {
+  padding-left: 35px;
+}
+/*===============================   invoice part end==============================*/
+/*========================== Help-Center =============================*/
+.help_Center .search-box {
+  margin-top: 24px;
+}
+.help_Center .search-box .input-group-text {
+  background: #FCFDFE;
+  border-color: #DFE3EB !important;
+  border-right: 0;
+  padding: 14px 27.5px;
+}
+.help_Center .search-box .search {
+  padding: 14px 27.5px;
+  height: auto;
+  padding-left: 0;
+  background: #FCFDFE;
+  border-color: #DFE3EB;
+  border-left: 0;
+}
+.frequent .accordion {
+  margin-top: 24px;
+  width: 100%;
+}
+.frequent .accordion .card {
+  border: 0;
+  background: #ffffff;
+}
+.frequent .accordion .card .card-header {
+  position: relative;
+  background: #ffffff;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #f16334;
+}
+.frequent .accordion .card .card-header::after {
+  position: absolute;
+  content: "";
+  top: 18px;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  display: block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: #999BA2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: transform 0.25s linear;
+  -webkit-transition: -webkit-transform 0.25s linear;
+}
+.frequent .accordion .card:hover,
+.frequent .accordion .card .card-header,
+.frequent .accordion .card .collapse {
+  background: #f5f7fa;
+}
+.frequent .accordion .card .card-header.collapsed {
+  font-weight: 400;
+  color: #363840;
+  background: #ffffff;
+}
+.frequent .accordion .card .card-header[aria-expanded="false"]::after {
+  content: "\f077";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.frequent .accordion .card .card-header[aria-expanded="true"]::after {
+  content: "\f078";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.frequent .accordion .card .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.frequent .accordion .card {
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+.frequent .accordion .card .card-header {
+  padding: 16px 24px;
+  width: 100%;
+  display: block;
+  border: 0;
+}
+.frequent .accordion .card .card-header .content {
+  padding-left: 24px;
+  padding-right: 30px;
+  width: 100%;
+  display: block;
+  position: relative;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+.frequent .accordion .card .card-header .content .texts {
+  position: relative;
+  overflow: hidden;
+}
+.frequent .accordion .card .card-header .content .texts p {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+}
+.frequent .accordion .card .card-header .content::before {
+  position: absolute;
+  right: 21.5px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+.frequent .accordion .card .card-header .content::after {
+  top: 4px;
+  left: 0;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  content: "";
+  background: #f16334;
+  -webkit-transition: all linear 0.25s;
+  -moz-transition: all linear 0.25s;
+  -ms-transition: all linear 0.25s;
+  -o-transition: all linear 0.25s;
+  transition: all linear 0.25s;
+}
+.frequent .accordion .card .card-header .content:hover::after {
+  height: 8px;
+}
+.frequent .accordion .card .card-header.collapsed .content .texts p {
+  font-weight: 400;
+}
+.frequent .image_list {
+  width: 100%;
+  height: 464px;
+  overflow: hidden;
+  border: 1px solid #dfe3eb;
+  background: #f5f7fa;
+}
+.frequent .image_list .detail_slide {
+  padding: 40px;
+}
+.frequent .image_list .detail_slide .head {
+  padding-bottom: 24px;
+}
+.frequent .image_list .detail_slide .head h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  line-height: 27.2px;
+}
+.frequent .image_list .detail_slide .text {
+  height: 279px;
+}
+.frequent .image_list .detail_slide .text h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  line-height: 23.8px;
+}
+/*======================== Help-Center End ===========================*/
+/*======================== ac_setting_part start ===========================*/
+.ac_setting_part .mini_heading {
+  margin-left: 10px;
+}
+.ac_setting_part .mini_heading h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #7B7D84;
+}
+.ac_setting_part .ac_edit {
+  margin-top: 24px;
+}
+.ac_setting_part .ac_edit .order_part {
+  background: #ffffff;
+  display: block;
+  padding: 24px;
+  height: auto;
+  width: 100%;
+}
+.ac_setting_part .ac_edit .order_part .order_head {
+  padding-bottom: 24px;
+  display: block;
+  height: 50px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.ac_setting_part .ac_edit .order_part .order_head h4 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  color: #363840;
+  text-align: left;
+  float: left;
+}
+.ac_setting_part .ac_edit .order_part .order_head a {
+  text-align: right;
+  float: right;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #f16334;
+}
+.ac_setting_part .ac_edit .order_part .order_head a i {
+  font-size: 14px;
+}
+.ac_setting_part .ac_edit .order_part .divider {
+  opacity: 0.2;
+  width: 100%;
+  color: #000;
+  border: 0.5px solid #000000;
+}
+.ac_setting_part .ac_edit .order_part .adress_form {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul {
+  width: 100%;
+  height: 60px;
+  padding-top: 32px;
+  float: none;
+  display: block;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul li {
+  width: 33%;
+  float: left;
+  text-align: left;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul li h6 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  text-align: left;
+  font-size: 16px;
+  padding: 0;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul li p {
+  font-family: 'Muli', sans-serif;
+  color: #7B7D84;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 170%;
+  text-align: left;
+  color: #363840;
+  font-size: 16px;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul li .as_edit .edit {
+  color: #F16334;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul .titles {
+  width: 40%;
+}
+.ac_setting_part .ac_edit .order_part .adress_form ul .expl {
+  width: 60%;
+}
+.ac_setting_part .ac_edit .order_part .no_after::after {
+  display: none;
+}
+.ac_setting_part .ac_edit .order_part .described_form {
+  height: 322px;
+}
+.ac_setting_part .ac_edit .order_part .described_form::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.ac_setting_part .ac_edit .order_part .described_form .adress_form h6,
+.ac_setting_part .ac_edit .order_part .described_form .adress_form p {
+  font-size: 14px;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_prev {
+  border: 1px solid #dfe3eb;
+  margin-top: 32px;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_prev img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_prev span {
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  width: 100%;
+  padding: 4px 0;
+  background: #f5f7fa;
+  border: 1px solid #dfe3eb;
+  border-top: 0;
+  text-align: center;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_prev span p {
+  font-family: 'Muli', sans-serif;
+  color: #7B7D84;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 170%;
+  color: #363840;
+  line-height: 15px;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_wala {
+  width: 100%;
+  height: 82px;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_list {
+  width: 84.55px;
+  height: 48px;
+}
+.ac_setting_part .ac_edit .order_part .described_form .img_list img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ac_setting_part .name_email .name form {
+  width: 100%;
+}
+.ac_setting_part .pass_edit .password {
+  height: auto;
+  margin-top: 24px;
+  padding: 24px 0;
+}
+.ac_setting_part .pass_edit .password .title {
+  margin-bottom: 24px;
+}
+.ac_setting_part .pass_edit .password .title h5 {
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #363840;
+  color: #999ba2;
+}
+.ac_setting_part .pass_edit .password form {
+  width: 100%;
+}
+.ac_setting_part .pass_edit .password form label {
+  padding-right: 0;
+  font-family: 'Muli', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  color: #7b7d84;
+  color: #7b7d84 !important;
+}
+.ac_setting_part .pass_edit .password form .pass {
+  margin: 0 -15px;
+}
+.ac_setting_part .pass_edit .password .btn_sec {
+  margin: 0 -15px;
+}
+.ac_setting_part .pass_edit .password .btn_sec .btn {
+  width: 45%;
+  margin-left: 4%;
+}
+.ac_setting_part .pass_edit .password .btn_sec .cancel {
+  margin-left: 0;
+  margin-right: 4%;
+}
+.edition .mini_heading {
+  margin-bottom: 40px;
+  padding: 24px;
+}
+.edition .format {
+  background: #fff;
+  padding: 20px 0 40px;
+}
+.edition .format .drag_picture {
+  background: #f5f7fa;
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+}
+.edition .format .drag_picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.edition .format .drag_picture .drag_pic {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.edition .format .button .confirm_button {
+  width: 400px;
+  margin: 0 auto;
+}
+.edition .format .button .confirm_button .btn {
+  width: 45%;
+}
+.edition .format .button .confirm_button .cancel {
+  margin-right: 35px;
+}
+/*On/Off Button*/
+.switch {
+  height: 24px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.switch input {
+  display: none;
+}
+.switch input + span {
+  padding-right: 50px;
+  min-height: 24px;
+  line-height: 24px;
+  display: block;
+  color: #99A3BA;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+.switch input + span:before,
+.switch input + span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 12px;
+}
+.switch input + span:before {
+  top: 0;
+  right: 0;
+  width: 42px;
+  height: 24px;
+  background: #E4ECFA;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.switch input + span:after {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  top: 3px;
+  right: 20px;
+  box-shadow: 0 1px 3px rgba(18, 22, 33, 0.1);
+  -webkit-transition: all .45s ease;
+  transition: all .45s ease;
+}
+.switch input + span strong {
+  font-weight: normal;
+  position: relative;
+  display: block;
+  top: 1px;
+}
+.switch input + span strong:before,
+.switch input + span strong:after {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  font-family: 'Mukta Malar', Arial;
+  -webkit-backface-visibility: hidden;
+}
+.switch input + span strong:before {
+  content: 'Off';
+  -webkit-transition: all .3s ease .2s;
+  transition: all .3s ease .2s;
+}
+.switch input + span strong:after {
+  content: 'On';
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #F16334;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate(2px, 0);
+  transform: translate(2px, 0);
+}
+.switch input:checked + span:before {
+  background: rgba(86, 40, 238, 0.35);
+}
+.switch input:checked + span:after {
+  background: #fff;
+  -webkit-transform: translate(18px, 0);
+  transform: translate(18px, 0);
+}
+.switch input:checked + span strong:before {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate(-2px, 0);
+  transform: translate(-2px, 0);
+}
+.switch input:checked + span strong:after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: all .3s ease .2s;
+  transition: all .3s ease .2s;
+}
+/*On/Off Button*/
+/*========================  ac_setting_part End ===========================*/
