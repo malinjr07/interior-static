@@ -90,6 +90,7 @@ ul {
         animation-iteration-count: infinite;
     }
 }
+
 .btn {
     background: transparent;
     .h6;
@@ -111,6 +112,7 @@ ul {
         .shadow(@x: 0, @y: 0, @blur: 0, @spread: 0, @alpha: 0.0);
     }
 }
+
 .cookie_part {
     position: fixed;
     bottom: 0;
@@ -280,6 +282,7 @@ footer {
         }
     }
 }
+
 /* Footer Ends Here */
 
 .rd-navbar,
@@ -715,6 +718,7 @@ footer {
 
                 &:hover {
                     background: @col1;
+
                     &::after {
                         height: 100%;
                     }
@@ -3202,304 +3206,302 @@ footer {
     }
 }
 
-.step-1 {
+.order-step {
     .mt80;
 
-    .p_5_1 {
-        .pb96;
 
-        .price_texts {
-            .pt56;
-            .pb56;
+    .price_texts {
+        .pt56;
+        .pb56;
 
-            .steps {
-                h6 {
-                    .h6;
-                    text-align: left;
-                    font-weight: 700;
-                }
-            }
-
-            .titles {
-                padding: 6px 0;
-                width: 43%;
-
-                h2 {
-                    .h2;
-                    font-size: 32px;
-                    line-height: 40px;
-                    text-align: left;
-                    color: @col2;
-                }
-            }
-
-            .terms {
-                h6 {
-                    .h6;
-                    text-align: left;
-                }
+        .steps {
+            h6 {
+                .h6;
+                text-align: left;
+                font-weight: 700;
             }
         }
 
-        .documents {
-            .step_1_box {
-                .file_box {
-                    width: 100%;
-                    height: 190px;
-                    padding: 0;
-                    position: relative;
+        .titles {
+            padding: 6px 0;
+            width: 43%;
 
-                    h5 {
-                        .h5;
-                    }
-
-                    h6 {
-                        .h6;
-                    }
-
-                    button,
-                    h5,
-                    h6 {
-                        text-align: center;
-                        padding: 4px 0;
-                    }
-
-                    button {
-                        padding: 12px 44px;
-                        position: absolute;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        background: transparent;
-
-                        &:hover {
-                            background: @col3;
-                        }
-                    }
-                }
-            }
-
-            .file_upload {
-                .documents {
-                    .files {
-                        margin-top: 30px;
-                        width: 100%;
-                        height: 80px;
-                        display: block;
-                        .bg;
-
-                        .img_part {
-                            height: 80px;
-                            width: 140px;
-                            float: left;
-
-                            img {
-                                .img_css;
-                            }
-                        }
-
-                        .info_part {
-                            padding: 18px 18px 18px 24px;
-                            height: 100%;
-                            width: 58%;
-                            float: left;
-
-                            h5 {
-                                .h5;
-                                font-size: 15px;
-                            }
-
-                            p {
-                                .p;
-                            }
-                        }
-
-                        .cancel_btn {
-                            right: 10px;
-                            top: 0;
-                            color: #999BA2;
-
-                            i {
-                                font-size: 9px;
-                            }
-                        }
-                    }
-
-                    .add {
-                        border: 1px dashed #DFE3EB;
-                        background: transparent;
-                        padding: 31px 105px;
-
-                        .add_img {
-                            width: 18px;
-                            height: 18px;
-                            float: left;
-                        }
-
-                        .add_text {
-                            h6 {
-                                .h6;
-                                line-height: 26px;
-                                color: @col3;
-                            }
-                        }
-                    }
-                }
-
-                /* change Here */
-                .add.files .dz-default.dz-message {
-                    opacity: 0;
-                    position: absolute;
-                    top: 15px;
-                    margin: 0;
-                }
-
-                .documents .add {
-                    border: 1px dashed #DFE3EB;
-                    background: transparent;
-                    height: 80px;
-                    padding: 0;
-
-                    .add_img,
-                    .add_text {
-                        margin-top: -15px;
-                    }
-
-                    .dropzone {
-                        min-height: 80px;
-                        height: 80px;
-                        padding: 39px 105px;
-                        width: 100%;
-                        border: 1px dashed #dfe3eb;
-                        background: #f5f7fa;
-                    }
-                }
-            }
-
-            .note_box {
-                .pt56;
-
-                label {
-                    .h6;
-                }
-
-                textarea {
-                    width: 100%;
-                    height: 105px;
-                    border: 1px solid #DFE3EB;
-                    background: transparent;
-                    .h6;
-                    line-height: 18px;
-
-                    &:focus {
-                        background: #fff;
-                        box-shadow: none;
-                    }
-                }
+            h2 {
+                .h2;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: left;
+                color: @col2;
             }
         }
 
-        .summery_box {
-            .bg;
+        .terms {
+            h6 {
+                .h6;
+                text-align: left;
+            }
+        }
+    }
 
-            .summery_title {
-                padding: 24px;
-                .bottom_line;
+    .step-1,
+    .documents {
+        .step_1_box {
+            .file_box {
+                width: 100%;
+                height: 190px;
+                padding: 0;
+                position: relative;
 
                 h5 {
                     .h5;
-                    font-size: 18px;
-                    line-height: 23px;
-                }
-            }
-
-            .summery_set {
-                padding: 24px;
-                height: 68px;
-                width: 100%;
-
-                .name {
-                    float: left;
-                    width: 50%;
-
-                    h5 {
-                        .h5;
-                        text-align: left;
-                        font-weight: 400;
-                    }
                 }
 
-                .price {
-                    width: 50%;
-                    float: left;
-
-                    h5 {
-                        .h5;
-                        text-align: right;
-                        font-weight: 400;
-                        color: #999BA2;
-                    }
-                }
-            }
-
-            .total_set {
-                padding: 24px;
-                height: 68px;
-                width: 100%;
-
-                .name {
-                    float: left;
-                    width: 50%;
-
-                    h5 {
-                        .h5;
-                        text-align: left;
-                    }
+                h6 {
+                    .h6;
                 }
 
-                .price {
-                    width: 50%;
-                    float: left;
+                button,
+                h5,
+                h6 {
+                    text-align: center;
+                    padding: 4px 0;
+                }
 
-                    h5 {
-                        .h5;
-                        text-align: right;
+                button {
+                    padding: 12px 44px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: transparent;
+
+                    &:hover {
+                        background: @col3;
                     }
                 }
             }
         }
 
-        .confirm_button {
-            padding-top: 30px;
+        .file_upload {
+            .documents {
+                .files {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 80px;
+                    display: block;
+                    .bg;
 
-            button {
-                width: 45.7%;
+                    .img_part {
+                        height: 80px;
+                        width: 140px;
+                        float: left;
+
+                        img {
+                            .img_css;
+                        }
+                    }
+
+                    .info_part {
+                        padding: 18px 18px 18px 24px;
+                        height: 100%;
+                        width: 58%;
+                        float: left;
+
+                        h5 {
+                            .h5;
+                            font-size: 15px;
+                        }
+
+                        p {
+                            .p;
+                        }
+                    }
+
+                    .cancel_btn {
+                        right: 10px;
+                        top: 0;
+                        color: #999BA2;
+
+                        i {
+                            font-size: 9px;
+                        }
+                    }
+                }
+
+                .add {
+                    border: 1px dashed #DFE3EB;
+                    background: transparent;
+                    padding: 31px 105px;
+
+                    .add_img {
+                        width: 18px;
+                        height: 18px;
+                        float: left;
+                    }
+
+                    .add_text {
+                        h6 {
+                            .h6;
+                            line-height: 26px;
+                            color: @col3;
+                        }
+                    }
+                }
+            }
+
+            /* change Here */
+            .add.files .dz-default.dz-message {
+                opacity: 0;
+                position: absolute;
+                top: 15px;
+                margin: 0;
+            }
+
+            .documents .add {
+                border: 1px dashed #DFE3EB;
+                background: transparent;
+                height: 80px;
+                padding: 0;
+
+                .add_img,
+                .add_text {
+                    margin-top: -15px;
+                }
+
+                .dropzone {
+                    min-height: 80px;
+                    height: 80px;
+                    padding: 39px 105px;
+                    width: 100%;
+                    border: 1px dashed #dfe3eb;
+                    background: #f5f7fa;
+                }
+            }
+        }
+
+        .note_box {
+            .pt56;
+
+            label {
+                .h6;
+            }
+
+            textarea {
+                width: 100%;
+                height: 105px;
+                border: 1px solid #DFE3EB;
+                background: transparent;
+                .h6;
+                line-height: 18px;
+
+                &:focus {
+                    background: #fff;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    .summery_box {
+        .bg;
+
+        .summery_title {
+            padding: 24px;
+            .bottom_line;
+
+            h5 {
+                .h5;
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+
+        .summery_set {
+            padding: 24px;
+            height: 68px;
+            width: 100%;
+
+            .name {
+                float: left;
+                width: 50%;
+
+                h5 {
+                    .h5;
+                    text-align: left;
+                    font-weight: 400;
+                }
+            }
+
+            .price {
+                width: 50%;
                 float: left;
 
-                &:hover {
-                    color: @col1;
+                h5 {
+                    .h5;
+                    text-align: right;
+                    font-weight: 400;
+                    color: #999BA2;
+                }
+            }
+        }
+
+        .total_set {
+            padding: 24px;
+            height: 68px;
+            width: 100%;
+
+            .name {
+                float: left;
+                width: 50%;
+
+                h5 {
+                    .h5;
+                    text-align: left;
                 }
             }
 
-            .cancel {
-                margin-right: 15px;
-            }
+            .price {
+                width: 50%;
+                float: left;
 
-            .next {
-                margin-left: 15px;
-                border-color: @col3;
+                h5 {
+                    .h5;
+                    text-align: right;
+                }
             }
+        }
+    }
 
-            .cross {
-                cursor: not-allowed;
-                opacity: 0.5;
-                border-color: @col4  !important;
+    .confirm_button {
+        padding-top: 30px;
+
+        button {
+            width: 45.7%;
+            float: left;
+
+            &:hover {
+                color: @col1;
+            }
+        }
+
+        .cancel {
+            margin-right: 15px;
+        }
+
+        .next {
+            margin-left: 15px;
+            border-color: @col3;
+        }
+
+        .cross {
+            cursor: not-allowed;
+            opacity: 0.5;
+            border-color: @col4  !important;
+            color: @col4  !important;
+
+            &:hover {
+                background: transparent;
+                border-color: @col4;
                 color: @col4  !important;
-
-                &:hover {
-                    background: transparent;
-                    border-color: @col4;
-                    color: @col4  !important;
-                }
             }
         }
     }
