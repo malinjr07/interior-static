@@ -1,0 +1,156 @@
+@import "./_varMix.less";
+
+.step-1 {
+    .step_1_box {
+        .file_box {
+            width: 100%;
+            height: 190px;
+            padding: 0;
+            position: relative;
+
+            h5 {
+                .h5;
+            }
+
+            h6 {
+                .h6;
+            }
+
+            button,
+            h5,
+            h6 {
+                text-align: center;
+                padding: 4px 0;
+            }
+
+            button {
+                padding: 12px 44px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                background: transparent;
+
+                &:hover {
+                    background: @col3;
+                }
+            }
+        }
+    }
+
+    .file_upload {
+        .files {
+            margin-top: 30px;
+            width: 100%;
+            height: 80px;
+            display: block;
+            .bg;
+
+            .img_part {
+                height: 80px;
+                width: 140px;
+                float: left;
+
+                img {
+                    .img_css;
+                }
+            }
+
+            .info_part {
+                padding: 18px 18px 18px 24px;
+                height: 100%;
+                width: 58%;
+                float: left;
+
+                h5 {
+                    .h5;
+                    font-size: 15px;
+                }
+
+                p {
+                    .p;
+                }
+            }
+
+            .cancel_btn {
+                right: 10px;
+                top: 0;
+                color: #999BA2;
+
+                i {
+                    font-size: 9px;
+                }
+            }
+        }
+
+        .add {
+            border: 1px dashed #DFE3EB;
+            background: transparent;
+            padding: 31px 105px;
+
+            .add_img {
+                width: 18px;
+                height: 18px;
+                float: left;
+            }
+
+            .add_text {
+                h6 {
+                    .h6;
+                    line-height: 26px;
+                    color: @col3;
+                }
+            }
+        }
+
+        /* change Here */
+        .add.files .dz-default.dz-message {
+            opacity: 0;
+            position: absolute;
+            top: 15px;
+            margin: 0;
+        }
+
+        .documents .add {
+            border: 1px dashed #DFE3EB;
+            background: transparent;
+            height: 80px;
+            padding: 0;
+
+            .add_img,
+            .add_text {
+                margin-top: -15px;
+            }
+
+            .dropzone {
+                min-height: 80px;
+                height: 80px;
+                padding: 39px 105px;
+                width: 100%;
+                border: 1px dashed #dfe3eb;
+                background: #f5f7fa;
+            }
+        }
+    }
+
+    .note_box {
+        .pt56;
+
+        label {
+            .h6;
+        }
+
+        textarea {
+            width: 100%;
+            height: 105px;
+            border: 1px solid #DFE3EB;
+            background: transparent;
+            .h6;
+            line-height: 18px;
+
+            &:focus {
+                background: #fff;
+                box-shadow: none;
+            }
+        }
+    }
+}

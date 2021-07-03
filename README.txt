@@ -46,5 +46,13 @@ Sequence of CSS/ Page Creation
 .Placed
 
 
-/***Style.css is for 26-46 ***/
+Delete these - 
+
+
+slider
+slick
+critic_slider
+comparsion
+BeerSlider
+atlantis.min
 
