@@ -10550,17 +10550,14 @@ footer .container .row .reservation .links a {
   left: 50%;
   transform: translateX(-50%);
 }
-.step-1 {
+.order-step {
   margin-top: 80px;
 }
-.step-1 .p_5_1 {
-  padding-bottom: 96px;
-}
-.step-1 .p_5_1 .price_texts {
+.order-step .price_texts {
   padding-top: 56px;
   padding-bottom: 56px;
 }
-.step-1 .p_5_1 .price_texts .steps h6 {
+.order-step .price_texts .steps h6 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -10570,11 +10567,11 @@ footer .container .row .reservation .links a {
   text-align: left;
   font-weight: 700;
 }
-.step-1 .p_5_1 .price_texts .titles {
+.order-step .price_texts .titles {
   padding: 6px 0;
   width: 43%;
 }
-.step-1 .p_5_1 .price_texts .titles h2 {
+.order-step .price_texts .titles h2 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10586,7 +10583,7 @@ footer .container .row .reservation .links a {
   text-align: left;
   color: #363840;
 }
-.step-1 .p_5_1 .price_texts .terms h6 {
+.order-step .price_texts .terms h6 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -10595,175 +10592,14 @@ footer .container .row .reservation .links a {
   color: #7B7D84;
   text-align: left;
 }
-.step-1 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.step-1 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.step-1 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.step-1 .p_5_1 .documents .step_1_box .file_box button,
-.step-1 .p_5_1 .documents .step_1_box .file_box h5,
-.step-1 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.step-1 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.step-1 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.step-1 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
+.order-step .summery_box {
   background: #fff;
 }
-.step-1 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.step-1 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add .add_img,
-.step-1 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.step-1 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.step-1 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.step-1 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.step-1 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.step-1 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.step-1 .p_5_1 .summery_box {
-  background: #fff;
-}
-.step-1 .p_5_1 .summery_box .summery_title {
+.order-step .summery_box .summery_title {
   padding: 24px;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
 }
-.step-1 .p_5_1 .summery_box .summery_title h5 {
+.order-step .summery_box .summery_title h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10773,16 +10609,16 @@ footer .container .row .reservation .links a {
   font-size: 18px;
   line-height: 23px;
 }
-.step-1 .p_5_1 .summery_box .summery_set {
+.order-step .summery_box .summery_set {
   padding: 24px;
   height: 68px;
   width: 100%;
 }
-.step-1 .p_5_1 .summery_box .summery_set .name {
+.order-step .summery_box .summery_set .name {
   float: left;
   width: 50%;
 }
-.step-1 .p_5_1 .summery_box .summery_set .name h5 {
+.order-step .summery_box .summery_set .name h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10792,11 +10628,11 @@ footer .container .row .reservation .links a {
   text-align: left;
   font-weight: 400;
 }
-.step-1 .p_5_1 .summery_box .summery_set .price {
+.order-step .summery_box .summery_set .price {
   width: 50%;
   float: left;
 }
-.step-1 .p_5_1 .summery_box .summery_set .price h5 {
+.order-step .summery_box .summery_set .price h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10807,16 +10643,16 @@ footer .container .row .reservation .links a {
   font-weight: 400;
   color: #999BA2;
 }
-.step-1 .p_5_1 .summery_box .total_set {
+.order-step .summery_box .total_set {
   padding: 24px;
   height: 68px;
   width: 100%;
 }
-.step-1 .p_5_1 .summery_box .total_set .name {
+.order-step .summery_box .total_set .name {
   float: left;
   width: 50%;
 }
-.step-1 .p_5_1 .summery_box .total_set .name h5 {
+.order-step .summery_box .total_set .name h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10825,11 +10661,11 @@ footer .container .row .reservation .links a {
   color: #363840;
   text-align: left;
 }
-.step-1 .p_5_1 .summery_box .total_set .price {
+.order-step .summery_box .total_set .price {
   width: 50%;
   float: left;
 }
-.step-1 .p_5_1 .summery_box .total_set .price h5 {
+.order-step .summery_box .total_set .price h5 {
   font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -10838,4819 +10674,40 @@ footer .container .row .reservation .links a {
   color: #363840;
   text-align: right;
 }
-.step-1 .p_5_1 .confirm_button {
+.order-step .confirm_button {
   padding-top: 30px;
 }
-.step-1 .p_5_1 .confirm_button button {
+.order-step .confirm_button button {
   width: 45.7%;
   float: left;
 }
-.step-1 .p_5_1 .confirm_button button:hover {
+.order-step .confirm_button button:hover {
   color: #fff;
 }
-.step-1 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.step-1 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.step-1 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.step-1 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-/* change Here */
-.Purchase-Step-2 {
-  margin-top: 80px;
-}
-.Purchase-Step-2 .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-2 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-2 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-2 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-2 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-2 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-2 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-2 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-2 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-2 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-2 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-2 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-2 .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-2 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe {
-  height: 286px;
-  border: 1px solid transparent;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -ms-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
-  margin: 15px 0;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked,
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) {
-  display: none;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label {
-  position: relative;
-  cursor: pointer;
-  border: 1px solid transparent;
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label span {
-  display: block;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label .img_part {
-  height: 233px;
-  width: 100%;
-  background: #7B7D84;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label .img_part img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label .vibe_info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 16px 24px;
-  background: #fff;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label .vibe_info h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  font-weight: 700;
-  line-height: 150%;
-  color: #363840;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe label:hover {
-  -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::after,
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: #f16334;
-  right: 15px;
-  top: 15px;
-  -webkit-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::before,
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
-  position: absolute;
-  content: "";
-  right: 10px;
-  top: 10px;
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
-  border: 2px solid #999BA2;
-  background: #DADADA;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
-  opacity: 0;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label {
-  -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::before {
-  border: 2px solid #F16334;
-  background: transparent;
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-.Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label {
-  border: 1px solid #F16334;
-}
-.Purchase-Step-2 .p_5_1 .summery_box {
-  margin-top: 16px;
-}
-.Purchase-Step-3 {
-  margin-top: 80px;
-}
-.Purchase-Step-3 .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-3 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-3 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-3 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-3 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-3 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-3 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-3 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-3 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-3 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-3 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-3 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-3 .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-3 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe {
-  height: 286px;
-  border: 1px solid transparent;
-  -webkit-transition: all linear 0.2s;
-  -moz-transition: all linear 0.2s;
-  -ms-transition: all linear 0.2s;
-  -o-transition: all linear 0.2s;
-  transition: all linear 0.2s;
-  margin: 15px 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked,
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) {
-  display: none;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label {
-  position: relative;
-  cursor: pointer;
-  border: 1px solid transparent;
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label span {
-  display: block;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label .img_part {
-  height: 233px;
-  width: 100%;
-  background: #7B7D84;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label .img_part img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label .vibe_info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 16px 24px;
-  background: #fff;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label .vibe_info h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  font-weight: 700;
-  line-height: 150%;
-  color: #363840;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe label:hover {
-  -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::after,
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: #f16334;
-  right: 15px;
-  top: 15px;
-  -webkit-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::before,
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
-  position: absolute;
-  content: "";
-  right: 10px;
-  top: 10px;
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
-  border: 2px solid #999BA2;
-  background: #DADADA;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
-  opacity: 0;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label {
-  -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::before {
-  border: 2px solid #F16334;
-  background: transparent;
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::after {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-.Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label {
-  border: 1px solid #F16334;
-}
-.Purchase-Step-3 .p_5_1 .summery_box {
-  margin-top: 16px;
-}
-.Purchase-Step-3 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 95%;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview {
-  margin: 15px 0;
-  background: #fff;
-  padding: 15px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .img_prev {
-  width: 190px;
-  height: 109px;
-  border: 1px solid #DFE3EB;
-  object-fit: contain;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .img_prev img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .img_prev span {
-  position: absolute;
-  bottom: -23px;
-  left: 0;
-  width: 100%;
-  padding: 4px 60px;
-  background: #F5F7FA;
-  border: 1px solid #DFE3EB;
-  border-top: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .img_prev span p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  color: #363840;
-  line-height: 15px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector {
-  padding: 16px 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .input {
-  margin-top: 10px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .input h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  color: #999BA2;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .select {
-  width: 78.2% !important;
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  line-height: 18px;
+.order-step .confirm_button .cancel {
   color: #363840 !important;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons {
-  /* CSS Custom Check-Box*/
-  /* CSS Custom Check Box Ends Here*/
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-control {
-  margin: 8px 32px 5px 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-control:first-child {
-  margin-top: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-checkbox .custom-control-label h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-  line-height: 180%;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-checkbox .custom-control-label::before {
-  position: absolute;
-  border-radius: 15%;
-  border: 1px solid #999BA2;
-  float: left;
-  background: #DADADA;
-  margin-right: 10px;
-  margin-top: 2px;
-  width: 13.5px;
-  height: 13.5px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: border 0.3s ease;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-checkbox .custom-control-label::after {
-  position: absolute;
-  top: 3.5px;
-  left: -26px;
-  display: block;
-  width: 18px;
-  height: 18px;
-  content: "";
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #F16334;
-  background-color: #F16334;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-control-input:checked ~ .custom-control-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
-  width: 18px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .addons .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: none;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn {
-  margin-top: 11px;
-  width: 22%;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn {
-  padding: 0;
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn .img {
-  margin-right: 4px;
-  margin-top: 6px;
-  width: 14px;
-  height: 14px;
-  display: block;
-  float: left;
-  background: url("../images/reference.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn:hover {
-  color: #F16334;
-  background: #F5F7FA;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn:hover .img {
-  background: url("../images/reference_hover.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-menu {
-  padding: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-toggle::after {
-  border: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-divider {
-  margin: 0;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-item {
-  padding: 8px 32px 8px 8px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn:hover {
-  background: #F5F7FA;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show {
-  -webkit-box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
-  box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show .rbtn {
-  color: #F16334;
-  background: #F5F7FA;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show .rbtn .img {
-  background: url("../images/reference_hover.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .describe .form-group {
-  margin-top: 1rem;
-  padding-right: 15px;
-}
-.Purchase-Step-3 .p_5_1 .documents .preview .form .describe .form-group textarea {
-  height: 105px;
-  padding: 8px 16px;
-  width: 100%;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  -webkit-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-}
-.step-4 {
-  margin-top: 80px;
-}
-.step-4 .p_5_1 {
-  padding-bottom: 96px;
-}
-.step-4 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.step-4 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.step-4 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.step-4 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.step-4 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box button,
-.step-4 .p_5_1 .documents .step_1_box .file_box h5,
-.step-4 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.step-4 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.step-4 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.step-4 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_img,
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.step-4 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.step-4 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.step-4 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.step-4 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.step-4 .p_5_1 .summery_box {
-  background: #fff;
-}
-.step-4 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.step-4 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.step-4 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.step-4 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.step-4 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.step-4 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.step-4 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.step-4 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.step-4 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.step-4 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.step-4 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.step-4 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.step-4 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.step-4 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.step-4 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.step-4 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.step-4 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.step-4 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.step-4 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.step-4 .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.step-4 .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.step-4 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.step-4 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_img,
-.step-4 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.step-4 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.step-4 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.step-4 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.step-4 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.step-4 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-4a {
-  margin-top: 80px;
-}
-.Purchase-Step-4a .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-4a .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-4a .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-4a .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-4a .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-4a .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-4a .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-4a .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-4a .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-4a .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-4a .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-5 {
-  margin-top: 80px;
-}
-.Purchase-Step-5 .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-5 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-5 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-5 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-5 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-5 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-5 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-5 .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-5 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-5 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box {
-  padding: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box input {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  font-size: 15px;
-  color: #7B7D84;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box label p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  line-height: 25px;
-  color: #363840;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box label p a {
-  color: #F16334;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .form-control {
-  padding: 6px 16px;
-  border-radius: 0;
-  background: #FCFDFE;
-  border: 1px solid #DFE3EB;
-  width: 100%;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .form-control:focus {
   border: 1px solid #363840;
-  box-shadow: none;
 }
-.Purchase-Step-5 .p_5_1 .documents .file_box textarea {
-  padding: 8px 16px;
-  width: 100%;
-  height: 64px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
-  padding-right: 0;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
-  padding-left: 20px;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: none;
-}
-.Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #F16334;
-  background-color: #F16334;
-}
-.Purchase-Step-6 {
-  margin-top: 80px;
-}
-.Purchase-Step-6 .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-6 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-6 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-6 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-6 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-6 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-6 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-6 .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-6 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-6 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box {
-  padding: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box input {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  font-size: 15px;
-  color: #7B7D84;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box label p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  line-height: 25px;
-  color: #363840;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box label p a {
-  color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .form-control {
-  padding: 6px 16px;
-  border-radius: 0;
-  background: #FCFDFE;
-  border: 1px solid #DFE3EB;
-  width: 100%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .form-control:focus {
-  border: 1px solid #363840;
-  box-shadow: none;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box textarea {
-  padding: 8px 16px;
-  width: 100%;
-  height: 64px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
-  padding-right: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
-  padding-left: 20px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: none;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #F16334;
-  background-color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .row {
-  margin-bottom: 56px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part {
-  background: #fff;
-  display: block;
-  padding: 24px 30px 24px 24px;
-  height: auto;
-  width: 100%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head {
-  padding-bottom: 24px;
-  display: block;
-  height: 50px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head h4 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 170%;
-  color: #363840;
-  text-align: left;
-  float: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head a {
-  text-align: right;
-  float: right;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  color: #F16334;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head a i {
-  font-size: 14px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .divider {
-  opacity: 0.2;
-  width: 100%;
-  color: #000;
-  border: 0.5px solid #000000;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul {
-  width: 100%;
-  height: 60px;
-  padding-top: 32px;
-  float: none;
-  display: block;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li {
-  width: 50%;
-  float: left;
-  text-align: left;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-size: 16px;
-  padding: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  text-align: left;
-  color: #363840;
-  font-size: 16px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
-  width: 40%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
-  width: 60%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
-  padding-bottom: 32px;
-  height: 120px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .no_after::after {
-  display: none;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form {
-  height: 322px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
-  font-size: 14px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev {
-  width: 190px;
-  border: 1px solid #DFE3EB;
-  margin-top: 32px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
-  position: absolute;
-  bottom: -23px;
-  left: 0;
-  width: 100%;
-  padding: 4px 60px;
-  background: #F5F7FA;
-  border: 1px solid #DFE3EB;
-  border-top: 0;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  color: #363840;
-  line-height: 15px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_wala {
-  width: 100%;
-  height: 82px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_list {
-  width: 84.55px;
-  height: 48px;
-}
-.Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_list img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-7 {
-  margin-top: 80px;
-}
-.Purchase-Step-7 .p_5_1 {
-  padding-bottom: 96px;
-}
-.Purchase-Step-7 .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Purchase-Step-7 .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Purchase-Step-7 .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Purchase-Step-7 .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Purchase-Step-7 .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box button,
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box h5,
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Purchase-Step-7 .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-7 .p_5_1 .summery_box {
-  background: #fff;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button .next {
-  margin-left: 15px;
-  border-color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button .cross {
-  cursor: not-allowed;
-  opacity: 0.5;
-  border-color: #7B7D84 !important;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button .cross:hover {
-  background: transparent;
-  border-color: #7B7D84;
-  color: #7B7D84 !important;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_img,
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Purchase-Step-7 .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box {
-  padding: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box input {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  font-size: 15px;
-  color: #7B7D84;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box label p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  line-height: 25px;
-  color: #363840;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box label p a {
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-control {
-  padding: 6px 16px;
-  border-radius: 0;
-  background: #FCFDFE;
-  border: 1px solid #DFE3EB;
-  width: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-control:focus {
-  border: 1px solid #363840;
-  box-shadow: none;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box textarea {
-  padding: 8px 16px;
-  width: 100%;
-  height: 64px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
-  padding-right: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
-  padding-left: 20px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: none;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #F16334;
-  background-color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .row {
-  margin-bottom: 56px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part {
-  background: #fff;
-  display: block;
-  padding: 24px 30px 24px 24px;
-  height: auto;
-  width: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head {
-  padding-bottom: 24px;
-  display: block;
-  height: 50px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head h4 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 170%;
-  color: #363840;
-  text-align: left;
-  float: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head a {
-  text-align: right;
-  float: right;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head a i {
-  font-size: 14px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .divider {
-  opacity: 0.2;
-  width: 100%;
-  color: #000;
-  border: 0.5px solid #000000;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul {
-  width: 100%;
-  height: 60px;
-  padding-top: 32px;
-  float: none;
-  display: block;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li {
-  width: 50%;
-  float: left;
-  text-align: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-size: 16px;
-  padding: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  text-align: left;
-  color: #363840;
-  font-size: 16px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
-  width: 40%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
-  width: 60%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
-  padding-bottom: 32px;
-  height: 120px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .no_after::after {
-  display: none;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form {
-  height: 322px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
-  font-size: 14px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev {
-  width: 190px;
-  border: 1px solid #DFE3EB;
-  margin-top: 32px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
-  position: absolute;
-  bottom: -23px;
-  left: 0;
-  width: 100%;
-  padding: 4px 60px;
-  background: #F5F7FA;
-  border: 1px solid #DFE3EB;
-  border-top: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  color: #363840;
-  line-height: 15px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_wala {
-  width: 100%;
-  height: 82px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_list {
-  width: 84.55px;
-  height: 48px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_list img {
-  width: 100%;
-  height: 100%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box {
-  background: #fff;
-  height: auto;
-  display: block;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box label {
-  margin-top: 10px;
-  width: 100px;
-  line-height: 18px;
-  font-size: 14px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .cvv {
-  width: 32px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-group {
-  position: relative;
-  margin-bottom: 32px !important;
-  height: 38px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .form-control {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-  width: 50%;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .mini_box {
-  width: 88px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .divider {
-  width: 100%;
-  height: 1px;
-  background: #000;
-  opacity: 0.1;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-group-custom {
-  margin-top: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-default {
-  border: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-group.panel-group-corporate .panel + .panel {
-  margin-top: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-body {
-  padding: 15px 0 0 16px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-title a.collapsed {
-  position: relative;
-  z-index: 1;
-  padding: 24px 82px 24px 28px;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  color: #363840;
-  font-weight: normal;
-  line-height: 20px;
-  -webkit-transition: all linear 0s;
-  -moz-transition: all linear 0s;
-  -ms-transition: all linear 0s;
-  -o-transition: all linear 0s;
-  transition: all linear 0s;
-  border-radius: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-title a {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .payment_head {
-  padding: 24px;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .payment_head h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box button.cancel {
-  border-color: #363840;
-  color: #363840 !important;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box button.cancel:hover {
+.order-step .confirm_button .cancel:hover {
   background: #EAEDF2;
-  color: #363840 !important;
 }
-.Purchase-Step-7 .p_5_1 .documents .file_box button {
-  padding: 12px 44px;
-  position: relative;
-  left: 0;
-  transform: none;
-  background: transparent;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card {
-  border: 0;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-  background: #fff;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card:last-child {
-  border: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .row {
-  margin: 0;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header {
-  padding: 24px 52px;
-  position: relative;
-  background: #fff;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  color: #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header::after {
-  position: absolute;
-  content: "";
-  top: 25px;
-  left: 24px;
-  width: 20px;
-  height: 20px;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  transition: transform 0.25s linear;
-  -webkit-transition: -webkit-transform 0.25s linear;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header::before {
-  position: absolute;
-  content: "";
-  top: 30.5px;
-  left: 29.5px;
-  width: 10px;
-  height: 10px;
-  background: #F16334;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  transition: transform 0.25s linear;
-  -webkit-transition: -webkit-transform 0.25s linear;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header.collapsed {
-  font-weight: 400;
-  color: #363840;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header[aria-expanded="true"]::after {
-  border: 2px solid #F16334;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header[aria-expanded="true"]::before {
-  display: block;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header[aria-expanded="false"]::after {
-  border: 2px solid #999BA2;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header[aria-expanded="false"]::before {
-  display: none;
-}
-.Purchase-Step-7 .p_5_1 .documents .file_box .miki_box {
-  width: 18%;
-  float: left;
-  margin-right: 15px;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button {
-  margin-top: 30px;
-  display: block;
-  height: 85px;
-  padding: 24px;
-  background: #fff;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: center;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button h5 a {
-  color: #F16334;
-  font-weight: 700;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button h6 {
-  text-align: left;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  float: left;
-  width: 75%;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button a {
-  text-align: right;
-  color: #F16334;
-  font-weight: 700;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button form .promo {
-  width: 242px;
-  height: 34px;
-  border: 1px solid #363840;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-  letter-spacing: 0.13em;
-  color: #363840;
-  padding: 8px 16px;
-  margin-right: 16px;
-}
-.Purchase-Step-7 .p_5_1 .confirm_button form .apply {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  font-weight: 700;
-  color: #F16334;
-}
-.Placed {
-  margin-top: 80px;
-}
-.Placed .p_5_1 {
-  padding-bottom: 96px;
-}
-.Placed .p_5_1 .price_texts {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-.Placed .p_5_1 .price_texts .steps h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-weight: 700;
-}
-.Placed .p_5_1 .price_texts .titles {
-  padding: 6px 0;
-  width: 43%;
-}
-.Placed .p_5_1 .price_texts .titles h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: left;
-  color: #363840;
-}
-.Placed .p_5_1 .price_texts .terms h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box {
-  width: 100%;
-  height: 190px;
-  padding: 0;
-  position: relative;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box button,
-.Placed .p_5_1 .documents .step_1_box .file_box h5,
-.Placed .p_5_1 .documents .step_1_box .file_box h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box button {
-  padding: 12px 44px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: transparent;
-}
-.Placed .p_5_1 .documents .step_1_box .file_box button:hover {
-  background: #F16334;
-}
-.Placed .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Placed .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Placed .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_img,
-.Placed .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Placed .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Placed .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Placed .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Placed .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Placed .p_5_1 .summery_box {
-  background: #fff;
-}
-.Placed .p_5_1 .summery_box .summery_title {
-  padding: 24px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-}
-.Placed .p_5_1 .summery_box .summery_title h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 18px;
-  line-height: 23px;
-}
-.Placed .p_5_1 .summery_box .summery_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Placed .p_5_1 .summery_box .summery_set .name {
-  float: left;
-  width: 50%;
-}
-.Placed .p_5_1 .summery_box .summery_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-  font-weight: 400;
-}
-.Placed .p_5_1 .summery_box .summery_set .price {
-  width: 50%;
-  float: left;
-}
-.Placed .p_5_1 .summery_box .summery_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-  font-weight: 400;
-  color: #999BA2;
-}
-.Placed .p_5_1 .summery_box .total_set {
-  padding: 24px;
-  height: 68px;
-  width: 100%;
-}
-.Placed .p_5_1 .summery_box .total_set .name {
-  float: left;
-  width: 50%;
-}
-.Placed .p_5_1 .summery_box .total_set .name h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: left;
-}
-.Placed .p_5_1 .summery_box .total_set .price {
-  width: 50%;
-  float: left;
-}
-.Placed .p_5_1 .summery_box .total_set .price h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  text-align: right;
-}
-.Placed .p_5_1 .confirm_button {
-  padding-top: 30px;
-}
-.Placed .p_5_1 .confirm_button button {
-  width: 45.7%;
-  float: left;
-}
-.Placed .p_5_1 .confirm_button button:hover {
-  color: #fff;
-}
-.Placed .p_5_1 .confirm_button .cancel {
-  margin-right: 15px;
-}
-.Placed .p_5_1 .confirm_button .next {
+.order-step .confirm_button .next {
   margin-left: 15px;
   border-color: #F16334;
 }
-.Placed .p_5_1 .confirm_button .cross {
+.order-step .confirm_button .cross {
   cursor: not-allowed;
   opacity: 0.5;
   border-color: #7B7D84 !important;
   color: #7B7D84 !important;
 }
-.Placed .p_5_1 .confirm_button .cross:hover {
+.order-step .confirm_button .cross:hover {
   background: transparent;
   border-color: #7B7D84;
   color: #7B7D84 !important;
 }
-.Placed .p_5_1 .documents .file_box {
-  padding: 38px 182px;
-}
-.Placed .p_5_1 .documents .file_box h6 {
-  padding-bottom: 16px;
-}
-.Placed .p_5_1 .documents .file_upload {
-  /* change Here */
-}
-.Placed .p_5_1 .documents .file_upload .documents .files {
-  margin-top: 30px;
-  width: 100%;
-  height: 80px;
-  display: block;
-  background: #fff;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .img_part {
-  height: 80px;
-  width: 140px;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .img_part img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part {
-  padding: 18px 18px 18px 24px;
-  height: 100%;
-  width: 58%;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part h5 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  font-size: 15px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .info_part p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .cancel_btn {
-  right: 10px;
-  top: 0;
-  color: #999BA2;
-}
-.Placed .p_5_1 .documents .file_upload .documents .files .cancel_btn i {
-  font-size: 9px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  padding: 31px 105px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_img {
-  width: 18px;
-  height: 18px;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_text h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 26px;
-  color: #F16334;
-}
-.Placed .p_5_1 .documents .file_upload .add.files .dz-default.dz-message {
-  opacity: 0;
-  position: absolute;
-  top: 15px;
-  margin: 0;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add {
-  border: 1px dashed #DFE3EB;
-  background: transparent;
-  height: 80px;
-  padding: 0;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .add_img,
-.Placed .p_5_1 .documents .file_upload .documents .add .add_text {
-  margin-top: -15px;
-}
-.Placed .p_5_1 .documents .file_upload .documents .add .dropzone {
-  min-height: 80px;
-  height: 80px;
-  padding: 39px 105px;
-  width: 100%;
-  border: 1px dashed #dfe3eb;
-  background: #f5f7fa;
-}
-.Placed .p_5_1 .documents .note_box {
-  padding-top: 56px;
-}
-.Placed .p_5_1 .documents .note_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-}
-.Placed .p_5_1 .documents .note_box textarea {
-  width: 100%;
-  height: 105px;
-  border: 1px solid #DFE3EB;
-  background: transparent;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  line-height: 18px;
-}
-.Placed .p_5_1 .documents .note_box textarea:focus {
-  background: #fff;
-  box-shadow: none;
-}
-.Placed .p_5_1 .documents .file_box {
-  padding: 0;
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-.Placed .p_5_1 .documents .file_box input {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  color: #363840;
-}
-.Placed .p_5_1 .documents .file_box label {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  font-size: 15px;
-  color: #7B7D84;
-}
-.Placed .p_5_1 .documents .file_box label p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  line-height: 25px;
-  color: #363840;
-}
-.Placed .p_5_1 .documents .file_box label p a {
-  color: #F16334;
-}
-.Placed .p_5_1 .documents .file_box .form-control {
-  padding: 6px 16px;
-  border-radius: 0;
-  background: #FCFDFE;
-  border: 1px solid #DFE3EB;
-  width: 100%;
-}
-.Placed .p_5_1 .documents .file_box .form-control:focus {
-  border: 1px solid #363840;
-  box-shadow: none;
-}
-.Placed .p_5_1 .documents .file_box textarea {
-  padding: 8px 16px;
-  width: 100%;
-  height: 64px;
-}
-.Placed .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
-  padding-right: 0;
-}
-.Placed .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
-  padding-left: 20px;
-}
-.Placed .p_5_1 .documents .file_box .custom-control-label::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
-}
-.Placed .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: none;
-}
-.Placed .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
-  color: #fff;
-  border-color: #F16334;
-  background-color: #F16334;
-}
-.Placed .p_5_1 .documents .file_box {
-  width: 100%;
-  height: 100%;
-}
-.Placed .p_5_1 .documents .file_box .row {
-  margin-bottom: 56px;
-}
-.Placed .p_5_1 .documents .file_box .order_part {
-  background: #fff;
-  display: block;
-  padding: 24px 30px 24px 24px;
-  height: auto;
-  width: 100%;
-}
-.Placed .p_5_1 .documents .file_box .order_part .order_head {
-  padding-bottom: 24px;
-  display: block;
-  height: 50px;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Placed .p_5_1 .documents .file_box .order_part .order_head h4 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 170%;
-  color: #363840;
-  text-align: left;
-  float: left;
-}
-.Placed .p_5_1 .documents .file_box .order_part .order_head a {
-  text-align: right;
-  float: right;
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #363840;
-  color: #F16334;
-}
-.Placed .p_5_1 .documents .file_box .order_part .order_head a i {
-  font-size: 14px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .divider {
-  opacity: 0.2;
-  width: 100%;
-  color: #000;
-  border: 0.5px solid #000000;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul {
-  width: 100%;
-  height: 60px;
-  padding-top: 32px;
-  float: none;
-  display: block;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul li {
-  width: 50%;
-  float: left;
-  text-align: left;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  text-align: left;
-  font-size: 16px;
-  padding: 0;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul li p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  text-align: left;
-  color: #363840;
-  font-size: 16px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
-  width: 40%;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
-  width: 60%;
-}
-.Placed .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
-  padding-bottom: 32px;
-  height: 120px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .no_after::after {
-  display: none;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form {
-  height: 322px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
-.Placed .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
-  font-size: 14px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev {
-  width: 190px;
-  border: 1px solid #DFE3EB;
-  margin-top: 32px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
-  width: 100%;
-  height: 100%;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
-  position: absolute;
-  bottom: -23px;
-  left: 0;
-  width: 100%;
-  padding: 4px 60px;
-  background: #F5F7FA;
-  border: 1px solid #DFE3EB;
-  border-top: 0;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
-  font-family: 'Muli', sans-serif;
-  color: #7B7D84;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 170%;
-  color: #363840;
-  line-height: 15px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_wala {
-  width: 100%;
-  height: 82px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_list {
-  width: 84.55px;
-  height: 48px;
-}
-.Placed .p_5_1 .documents .file_box .order_part .described_form .img_list img {
-  width: 100%;
-  height: 100%;
-}
-.Placed .p_5_1 .documents .file_box {
-  width: 100%;
-  height: auto;
-  margin-top: 96px;
-  padding-top: 64px;
-  padding-bottom: 56px;
-  text-align: center;
-}
-.Placed .p_5_1 .documents .file_box i {
-  display: block;
-  float: none;
-  text-align: center;
-  color: #F16334;
-  font-size: 30px;
-}
-.Placed .p_5_1 .documents .file_box h2 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #F16334;
-  font-size: 32px;
-  line-height: 40px;
-  color: #363840;
-}
-.Placed .p_5_1 .documents .file_box h6 {
-  font-family: 'Muli', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 170%;
-  color: #7B7D84;
-  padding-bottom: 56px;
-}
-.Placed .p_5_1 .documents .file_box h6 span {
-  font-weight: 700;
-  color: #363840;
-}
-.Placed .p_5_1 .documents .file_box .btn {
-  border-color: #363840;
-  color: #363840 !important;
-  padding: 12px 112px;
-  text-transform: none;
-}
-.Placed .p_5_1 .documents .file_box .btn:hover {
-  border-color: #F16334;
-  color: #fff !important;
+.order-step .documents {
+  padding-bottom: 96px;
 }
 /*===============================CSS for Modals==============================*/
 /*==================+======== Sign page Css Start here================+=======*/
@@ -21262,7 +16319,7 @@ footer .container .row .reservation .links a {
     overflow: hidden;
     margin-bottom: 0;
   }
-  /*======================PLACE ORDERS Page CSS=================================*/
+  /*======================PLACE ORDERS Page CSS Responsive=================================*/
   .pricing_1 .partnership {
     padding-top: 56px !important;
     padding-bottom: 56px !important;
@@ -21317,77 +16374,133 @@ footer .container .row .reservation .links a {
     bottom: 6%;
     padding: 8px 45px;
   }
-  .order-step {
-    margin-top: 80px;
+  .step-1 .p_5_1 {
+    padding-bottom: 56px !important;
   }
-  .order-step .price_texts {
+  .step-1 .p_5_1 .price_texts {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
   }
-  .order-step .price_texts .steps h6 {
+  .step-1 .p_5_1 .price_texts .steps h6 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #7B7D84;
-    text-align: left;
+    text-align: center;
     font-weight: 700;
   }
-  .order-step .price_texts .titles {
+  .step-1 .p_5_1 .price_texts .titles {
     padding: 6px 0;
-    width: 43%;
+    width: 100%;
   }
-  .order-step .price_texts .titles h2 {
+  .step-1 .p_5_1 .price_texts .titles h2 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
-    text-align: center;
     color: #F16334;
     font-size: 32px;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
     color: #363840;
   }
-  .order-step .price_texts .terms h6 {
+  .step-1 .p_5_1 .price_texts .terms h6 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #7B7D84;
-    text-align: left;
+    text-align: center;
   }
-  .order-step .documents {
-    padding-bottom: 56px !important;
+  .step-1 .p_5_1 .documents .file_box {
+    width: 100%;
+    height: 190px;
+    border: 1px dashed #DFE3EB;
+    padding: 32px 0;
+    position: relative;
   }
-  .order-step .documents .summery_box {
-    background: #fff;
-  }
-  .order-step .documents .summery_box .summery_title {
-    padding: 24px;
-    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-  }
-  .order-step .documents .summery_box .summery_title h5 {
+  .step-1 .p_5_1 .documents .file_box h5 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     color: #363840;
-    font-size: 18px;
-    line-height: 23px;
+    padding: 0 0 24px;
+    font-weight: 400;
+    color: #7B7D84;
   }
-  .order-step .documents .summery_box .summery_set {
+  .step-1 .p_5_1 .documents .file_box button {
+    text-align: center;
+  }
+  .step-1 .p_5_1 .documents .file_box button {
+    padding: 14px 48px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+  }
+  .step-1 .p_5_1 .documents .file_box button:hover {
+    background: #F16334;
+  }
+  .step-1 .p_5_1 .documents .note_box {
+    padding-top: 30px !important;
+  }
+  .step-1 .p_5_1 .documents .note_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+  }
+  .step-1 .p_5_1 .documents .note_box textarea {
+    width: 100%;
+    height: 105px;
+    border: 1px solid #DFE3EB;
+    background: transparent;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B7D84;
+    line-height: 18px;
+  }
+  .step-1 .p_5_1 .documents .note_box textarea:focus {
+    background: #fff;
+    box-shadow: none;
+  }
+  .step-1 .p_5_1 .summery_box {
+    margin-top: 56px;
+    background: #fff;
+  }
+  .step-1 .p_5_1 .summery_box .summery_title {
+    padding: 24px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+  .step-1 .p_5_1 .summery_box .summery_title h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+  .step-1 .p_5_1 .summery_box .summery_set {
     padding: 24px;
     height: 68px;
     width: 100%;
   }
-  .order-step .documents .summery_box .summery_set .name {
+  .step-1 .p_5_1 .summery_box .summery_set .name {
     float: left;
     width: 50%;
   }
-  .order-step .documents .summery_box .summery_set .name h5 {
+  .step-1 .p_5_1 .summery_box .summery_set .name h5 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -21397,11 +16510,11 @@ footer .container .row .reservation .links a {
     text-align: left;
     font-weight: 400;
   }
-  .order-step .documents .summery_box .summery_set .price {
+  .step-1 .p_5_1 .summery_box .summery_set .price {
     width: 50%;
     float: left;
   }
-  .order-step .documents .summery_box .summery_set .price h5 {
+  .step-1 .p_5_1 .summery_box .summery_set .price h5 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -21412,16 +16525,16 @@ footer .container .row .reservation .links a {
     font-weight: 400;
     color: #999BA2;
   }
-  .order-step .documents .summery_box .total_set {
+  .step-1 .p_5_1 .summery_box .total_set {
     padding: 24px;
     height: 68px;
     width: 100%;
   }
-  .order-step .documents .summery_box .total_set .name {
+  .step-1 .p_5_1 .summery_box .total_set .name {
     float: left;
     width: 50%;
   }
-  .order-step .documents .summery_box .total_set .name h5 {
+  .step-1 .p_5_1 .summery_box .total_set .name h5 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -21430,11 +16543,11 @@ footer .container .row .reservation .links a {
     color: #363840;
     text-align: left;
   }
-  .order-step .documents .summery_box .total_set .price {
+  .step-1 .p_5_1 .summery_box .total_set .price {
     width: 50%;
     float: left;
   }
-  .order-step .documents .summery_box .total_set .price h5 {
+  .step-1 .p_5_1 .summery_box .total_set .price h5 {
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -21443,37 +16556,1755 @@ footer .container .row .reservation .links a {
     color: #363840;
     text-align: right;
   }
-  .order-step .documents .confirm_button {
-    padding-top: 30px;
+  .step-1 .p_5_1 .confirm_button {
+    padding: 24px 15px 0;
   }
-  .order-step .documents .confirm_button button {
-    width: 45.7%;
+  .step-1 .p_5_1 .confirm_button button {
+    width: 45%;
     float: left;
   }
-  .order-step .documents .confirm_button button:hover {
+  .step-1 .p_5_1 .confirm_button button:hover {
     color: #fff;
   }
-  .order-step .documents .confirm_button .cancel {
-    color: #363840 !important;
-    border: 1px solid #363840;
+  .step-1 .p_5_1 .confirm_button .cancel {
+    margin-right: 15px;
   }
-  .order-step .documents .confirm_button .cancel:hover {
-    background: #EAEDF2;
-  }
-  .order-step .documents .confirm_button .next {
-    margin-left: 15px;
+  .step-1 .p_5_1 .confirm_button .next {
+    margin-left: 4%;
     border-color: #F16334;
   }
-  .order-step .documents .confirm_button .cross {
+  .step-1 .p_5_1 .confirm_button .cross {
     cursor: not-allowed;
     opacity: 0.5;
     border-color: #7B7D84 !important;
     color: #7B7D84 !important;
   }
-  .order-step .documents .confirm_button .cross:hover {
+  .step-1 .p_5_1 .confirm_button .cross:hover {
     background: transparent;
     border-color: #7B7D84;
     color: #7B7D84 !important;
+  }
+  .Purchase-Step-2 {
+    margin-top: 46px;
+  }
+  .Purchase-Step-2 .p_5_1 .price_texts .titles {
+    padding: 8px 0;
+    width: 100%;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe {
+    height: 245px;
+    border: 1px solid transparent;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    margin: 15px 0;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked,
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) {
+    display: none;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label span {
+    display: block;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label .img_part {
+    height: 192px;
+    width: 100%;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label .img_part img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label .vibe_info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 16px 24px;
+    background: #fff;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label .vibe_info h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    font-weight: 700;
+    line-height: 150%;
+    color: #363840;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe label:hover {
+    -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::after,
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #f16334;
+    right: 15px;
+    top: 15px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::before,
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    background: transparent;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
+    border: 2px solid transparent;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::before {
+    border: 2px solid #F16334;
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .Purchase-Step-2 .p_5_1 .documents .vibe [type="radio"]:checked + label {
+    border: 1px solid #f16334;
+  }
+  .Purchase-Step-2 .p_5_1 .summery_box {
+    margin-top: 16px;
+  }
+  .Purchase-Step-3 {
+    margin-top: 46px;
+  }
+  .Purchase-Step-3 .p_5_1 .price_texts .titles {
+    padding: 8px 0;
+    width: 100%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe {
+    height: 245px;
+    border: 1px solid transparent;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    margin: 15px 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked,
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) {
+    display: none;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label span {
+    display: block;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label .img_part {
+    height: 192px;
+    width: 100%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label .img_part img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label .vibe_info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 16px 24px;
+    background: #fff;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label .vibe_info h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    font-weight: 700;
+    line-height: 150%;
+    color: #363840;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe label:hover {
+    -webkit-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px -25px rgba(0, 0, 0, 0.75);
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::after,
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #f16334;
+    right: 15px;
+    top: 15px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::before,
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    background: transparent;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::before {
+    border: 2px solid transparent;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:not(:checked) + label::after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::before {
+    border: 2px solid #F16334;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .Purchase-Step-3 .p_5_1 .documents .vibe [type="radio"]:checked + label {
+    border: 1px solid #f16334;
+  }
+  .Purchase-Step-3 .p_5_1 .summery_box {
+    margin-top: 16px;
+  }
+  .Purchase-Step-3 .p_5_1 .confirm_button button {
+    width: 44%;
+    float: left;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview {
+    margin: 15px 0;
+    background: #fff;
+    padding: 15px;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .img_prev {
+    width: 100%;
+    max-height: 226px;
+    min-height: 226px;
+    background: #F5F7FA;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .img_prev img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .img_prev span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4px 60px;
+    background: #F5F7FA;
+    border: 1px solid #DFE3EB;
+    border-top: 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .img_prev span p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    color: #363840;
+    line-height: 15px;
+    text-align: center;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector {
+    padding: 40px 0 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .input {
+    margin: 0 0 12px;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .input h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: left;
+    color: #999BA2;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .form_sector .select {
+    width: 78.2% !important;
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    line-height: 18px;
+    color: #363840 !important;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .addons .label {
+    padding: 8px 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .addons .label:first-child {
+    padding-top: 5px;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .addons .label:last-child {
+    padding-bottom: 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn {
+    margin: 0 0 12px;
+    width: 22%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn {
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn .img {
+    margin-right: 4px;
+    margin-top: 6px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    float: left;
+    background: url("../images/reference.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn:hover {
+    color: #F16334;
+    background: #F5F7FA;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .rbtn:hover .img {
+    background: url("../images/reference_hover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-menu {
+    padding: 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-toggle::after {
+    border: 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-divider {
+    margin: 0;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn .dropdown-item {
+    padding: 8px 32px 8px 8px;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .refer_btn:hover {
+    background: #F5F7FA;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show {
+    -webkit-box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 32px 32px 0 rgba(0, 0, 0, 0.08);
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show .rbtn {
+    color: #F16334;
+    background: #F5F7FA;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .reference .show .rbtn .img {
+    background: url("../images/reference_hover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .describe .form-group {
+    margin-top: 1rem;
+    padding-right: 15px;
+  }
+  .Purchase-Step-3 .p_5_1 .documents .preview .form .describe .form-group textarea {
+    height: 105px;
+    padding: 8px 16px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+  }
+  .step-4 {
+    margin-top: 46px;
+  }
+  .step-4 .p_5_1 {
+    padding-bottom: 56px !important;
+  }
+  .step-4 .p_5_1 .price_texts {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .step-4 .p_5_1 .price_texts .steps h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: center;
+    font-weight: 700;
+  }
+  .step-4 .p_5_1 .price_texts .titles {
+    padding: 6px 0;
+    width: 100%;
+  }
+  .step-4 .p_5_1 .price_texts .titles h2 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #F16334;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #363840;
+  }
+  .step-4 .p_5_1 .price_texts .terms h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: center;
+  }
+  .step-4 .p_5_1 .documents .file_box {
+    width: 100%;
+    height: 190px;
+    border: 1px dashed #DFE3EB;
+    padding: 32px 0;
+    position: relative;
+  }
+  .step-4 .p_5_1 .documents .file_box h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    padding: 0 0 24px;
+    font-weight: 400;
+    color: #7B7D84;
+  }
+  .step-4 .p_5_1 .documents .file_box button {
+    text-align: center;
+  }
+  .step-4 .p_5_1 .documents .file_box button {
+    padding: 14px 48px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+  }
+  .step-4 .p_5_1 .documents .file_box button:hover {
+    background: #F16334;
+  }
+  .step-4 .p_5_1 .documents .note_box {
+    padding-top: 30px !important;
+  }
+  .step-4 .p_5_1 .documents .note_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+  }
+  .step-4 .p_5_1 .documents .note_box textarea {
+    width: 100%;
+    height: 105px;
+    border: 1px solid #DFE3EB;
+    background: transparent;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B7D84;
+    line-height: 18px;
+  }
+  .step-4 .p_5_1 .documents .note_box textarea:focus {
+    background: #fff;
+    box-shadow: none;
+  }
+  .step-4 .p_5_1 .summery_box {
+    margin-top: 56px;
+    background: #fff;
+  }
+  .step-4 .p_5_1 .summery_box .summery_title {
+    padding: 24px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+  .step-4 .p_5_1 .summery_box .summery_title h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+  .step-4 .p_5_1 .summery_box .summery_set {
+    padding: 24px;
+    height: 68px;
+    width: 100%;
+  }
+  .step-4 .p_5_1 .summery_box .summery_set .name {
+    float: left;
+    width: 50%;
+  }
+  .step-4 .p_5_1 .summery_box .summery_set .name h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+    font-weight: 400;
+  }
+  .step-4 .p_5_1 .summery_box .summery_set .price {
+    width: 50%;
+    float: left;
+  }
+  .step-4 .p_5_1 .summery_box .summery_set .price h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: right;
+    font-weight: 400;
+    color: #999BA2;
+  }
+  .step-4 .p_5_1 .summery_box .total_set {
+    padding: 24px;
+    height: 68px;
+    width: 100%;
+  }
+  .step-4 .p_5_1 .summery_box .total_set .name {
+    float: left;
+    width: 50%;
+  }
+  .step-4 .p_5_1 .summery_box .total_set .name h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+  }
+  .step-4 .p_5_1 .summery_box .total_set .price {
+    width: 50%;
+    float: left;
+  }
+  .step-4 .p_5_1 .summery_box .total_set .price h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: right;
+  }
+  .step-4 .p_5_1 .confirm_button {
+    padding: 24px 15px 0;
+  }
+  .step-4 .p_5_1 .confirm_button button {
+    width: 45%;
+    float: left;
+  }
+  .step-4 .p_5_1 .confirm_button button:hover {
+    color: #fff;
+  }
+  .step-4 .p_5_1 .confirm_button .cancel {
+    margin-right: 15px;
+  }
+  .step-4 .p_5_1 .confirm_button .next {
+    margin-left: 4%;
+    border-color: #F16334;
+  }
+  .step-4 .p_5_1 .confirm_button .cross {
+    cursor: not-allowed;
+    opacity: 0.5;
+    border-color: #7B7D84 !important;
+    color: #7B7D84 !important;
+  }
+  .step-4 .p_5_1 .confirm_button .cross:hover {
+    background: transparent;
+    border-color: #7B7D84;
+    color: #7B7D84 !important;
+  }
+  .step-4 .p_5_1 .price_texts .titles {
+    padding: 8px 0;
+    width: 100%;
+  }
+  .step-4 .p_5_1 .confirm_button button {
+    width: 44%;
+    float: left;
+  }
+  .step-4 .p_5_1 .documents .file_box {
+    padding: 32px 24px;
+  }
+  .step-4 .p_5_1 .documents .file_box h6 {
+    padding-bottom: 16px;
+  }
+  .step-4 .p_5_1 .documents .note_box {
+    padding-top: 30px !important;
+  }
+  .step-4 .p_5_1 .documents .note_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+  }
+  .step-4 .p_5_1 .documents .note_box textarea {
+    width: 100%;
+    height: 105px;
+    border: 1px solid #DFE3EB;
+    background: transparent;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B7D84;
+    line-height: 18px;
+  }
+  .step-4 .p_5_1 .documents .note_box textarea:focus {
+    background: #fff;
+    box-shadow: none;
+  }
+  .Purchase-Step-5 {
+    margin-top: 46px;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box input {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    color: #363840;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-size: 15px;
+    color: #7B7D84;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box label p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    line-height: 25px;
+    color: #363840;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box label p a {
+    color: #F16334;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .form-control {
+    padding: 6px 16px;
+    border-radius: 0;
+    background: #FCFDFE;
+    border: 1px solid #DFE3EB;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .form-control:focus {
+    border: 1px solid #363840;
+    box-shadow: none;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box textarea {
+    padding: 8px 16px;
+    width: 100%;
+    height: 64px;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
+    padding: 0;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
+    padding: 0;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+  }
+  .Purchase-Step-5 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #F16334;
+    background-color: #F16334;
+  }
+  .Purchase-Step-6 {
+    margin-top: 46px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box input {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    color: #363840;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-size: 15px;
+    color: #7B7D84;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box label p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    line-height: 25px;
+    color: #363840;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box label p a {
+    color: #F16334;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .form-control {
+    padding: 6px 16px;
+    border-radius: 0;
+    background: #FCFDFE;
+    border: 1px solid #DFE3EB;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .form-control:focus {
+    border: 1px solid #363840;
+    box-shadow: none;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box textarea {
+    padding: 8px 16px;
+    width: 100%;
+    height: 64px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
+    padding: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
+    padding: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #F16334;
+    background-color: #F16334;
+  }
+  .Purchase-Step-6 .p_5_1 .documents {
+    width: 100%;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box {
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .row {
+    margin: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .mb56 {
+    margin-bottom: 56px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part {
+    background: #fff;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head {
+    padding: 24px;
+    display: block;
+    height: 70px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head h4 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head a {
+    text-align: right;
+    float: right;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    color: #F16334;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .order_head a i {
+    font-size: 14px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .divider {
+    opacity: 0.2;
+    width: 100%;
+    color: #000;
+    border: 0.5px solid #000000;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul {
+    width: 100%;
+    height: 72px;
+    padding: 12px;
+    float: none;
+    display: block;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 4px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: left;
+    font-size: 16px;
+    padding: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul li p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    text-align: left;
+    color: #363840;
+    font-size: 16px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
+    width: 100%;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
+    width: 100%;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
+    padding-bottom: 32px;
+    height: 120px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .no_after::after {
+    display: none;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form {
+    height: 600px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
+    font-size: 14px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev {
+    width: 100%;
+    border: 1px solid #DFE3EB;
+    margin-top: 24px;
+    height: 226px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4px 60px;
+    background: #F5F7FA;
+    border: 1px solid #DFE3EB;
+    border-top: 0;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    color: #363840;
+    line-height: 15px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_wala {
+    width: 100%;
+    height: 82px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_list {
+    width: 84.55px;
+    height: 48px;
+  }
+  .Purchase-Step-6 .p_5_1 .documents .file_box .order_part .described_form .img_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-7 {
+    margin-top: 46px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box input {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    color: #363840;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-size: 15px;
+    color: #7B7D84;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box label p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    line-height: 25px;
+    color: #363840;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box label p a {
+    color: #F16334;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-control {
+    padding: 6px 16px;
+    border-radius: 0;
+    background: #FCFDFE;
+    border: 1px solid #DFE3EB;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-control:focus {
+    border: 1px solid #363840;
+    box-shadow: none;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box textarea {
+    padding: 8px 16px;
+    width: 100%;
+    height: 64px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
+    padding: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
+    padding: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #F16334;
+    background-color: #F16334;
+  }
+  .Purchase-Step-7 .p_5_1 .documents {
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box {
+    width: 100%;
+    height: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .row {
+    margin: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .mb56 {
+    margin-bottom: 56px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part {
+    background: #fff;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head {
+    padding: 24px;
+    display: block;
+    height: 70px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head h4 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head a {
+    text-align: right;
+    float: right;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    color: #F16334;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .order_head a i {
+    font-size: 14px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .divider {
+    opacity: 0.2;
+    width: 100%;
+    color: #000;
+    border: 0.5px solid #000000;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul {
+    width: 100%;
+    height: 72px;
+    padding: 12px;
+    float: none;
+    display: block;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 4px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: left;
+    font-size: 16px;
+    padding: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul li p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    text-align: left;
+    color: #363840;
+    font-size: 16px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
+    padding-bottom: 32px;
+    height: 120px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .no_after::after {
+    display: none;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form {
+    height: 600px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
+    font-size: 14px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev {
+    width: 100%;
+    border: 1px solid #DFE3EB;
+    margin-top: 24px;
+    height: 226px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4px 60px;
+    background: #F5F7FA;
+    border: 1px solid #DFE3EB;
+    border-top: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    color: #363840;
+    line-height: 15px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_wala {
+    width: 100%;
+    height: 82px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_list {
+    width: 84.55px;
+    height: 48px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .order_part .described_form .img_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Purchase-Step-7 .p_5_1 .price_texts .titles h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box {
+    background: #fff;
+    height: auto;
+    display: block;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box label {
+    margin-top: 10px;
+    width: 100px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-group {
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .form-control {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    color: #363840;
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .mini_box {
+    width: 66px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .mic_box {
+    width: 148px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .miki_box {
+    width: 33%;
+    float: left;
+    margin-right: 10px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .cvv {
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .divider {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    opacity: 0.1;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-group-custom {
+    margin-top: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-default {
+    border: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-group.panel-group-corporate .panel + .panel {
+    margin-top: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-body {
+    padding: 15px 0 0 16px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-title a.collapsed {
+    position: relative;
+    z-index: 1;
+    padding: 24px 82px 24px 28px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    font-weight: normal;
+    line-height: 20px;
+    -webkit-transition: all linear 0s;
+    -moz-transition: all linear 0s;
+    -ms-transition: all linear 0s;
+    -o-transition: all linear 0s;
+    transition: all linear 0s;
+    border-radius: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .panel-corporate .panel-title a {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    color: #F16334;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .payment_head {
+    padding: 24px 9px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .payment_head h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+    padding: 0 !important;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box button {
+    width: 47%;
+    padding: 12px 26px;
+    position: relative;
+    left: 0;
+    transform: none;
+    background: transparent;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card {
+    border: 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card:last-child {
+    border: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card .row {
+    margin: 0;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header {
+    position: relative;
+    background: #fff;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    padding-left: 30px;
+    padding-right: 12px;
+    color: #F16334;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header::after {
+    top: 26px;
+    left: 7px;
+    width: 15px;
+    height: 15px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card .card-header::before {
+    top: 31.5px;
+    left: 11.5px;
+    width: 5px;
+    height: 5px;
+  }
+  .Purchase-Step-7 .p_5_1 .documents .file_box .card .card-body {
+    padding: 20px 0;
+  }
+  .Purchase-Step-7 .p_5_1 .input-group {
+    width: 100%;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button {
+    margin-top: 30px;
+    display: block;
+    height: 85px;
+    padding: 24px;
+    background: #fff;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button h5 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: center;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button h5 a {
+    color: #F16334;
+    font-weight: 700;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button h6 {
+    text-align: left;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    float: left;
+    width: 75%;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button a {
+    text-align: right;
+    color: #F16334;
+    font-weight: 700;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button form .promo {
+    width: 242px;
+    height: 34px;
+    border: 1px solid #363840;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B7D84;
+    line-height: 18px;
+    letter-spacing: 0.13em;
+    color: #363840;
+    padding: 8px 16px;
+    margin-right: 16px;
+  }
+  .Purchase-Step-7 .p_5_1 .confirm_button form .apply {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    font-weight: 700;
+    color: #F16334;
+  }
+  .Purchase-Step-7 .panel-footer {
+    padding: 40px 15px 10px;
+  }
+  .Purchase-Step-7 .input-group-addon {
+    padding: 4px 16px;
+  }
+  .Placed {
+    margin-top: 46px;
+  }
+  .Placed .p_5_1 .documents .file_box {
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .Placed .p_5_1 .documents .file_box input {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    color: #363840;
+  }
+  .Placed .p_5_1 .documents .file_box label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-size: 15px;
+    color: #7B7D84;
+  }
+  .Placed .p_5_1 .documents .file_box label p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    line-height: 25px;
+    color: #363840;
+  }
+  .Placed .p_5_1 .documents .file_box label p a {
+    color: #F16334;
+  }
+  .Placed .p_5_1 .documents .file_box .form-control {
+    padding: 6px 16px;
+    border-radius: 0;
+    background: #FCFDFE;
+    border: 1px solid #DFE3EB;
+  }
+  .Placed .p_5_1 .documents .file_box .form-control:focus {
+    border: 1px solid #363840;
+    box-shadow: none;
+  }
+  .Placed .p_5_1 .documents .file_box textarea {
+    padding: 8px 16px;
+    width: 100%;
+    height: 64px;
+  }
+  .Placed .p_5_1 .documents .file_box .form-row .form-group.col-md-6:first-child {
+    padding: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .form-row .form-group.col-md-6:last-child {
+    padding: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+  }
+  .Placed .p_5_1 .documents .file_box .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: none;
+  }
+  .Placed .p_5_1 .documents .file_box .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #F16334;
+    background-color: #F16334;
+  }
+  .Placed .p_5_1 .documents {
+    width: 100%;
+  }
+  .Placed .p_5_1 .documents .file_box {
+    width: 100%;
+    height: 100%;
+  }
+  .Placed .p_5_1 .documents .file_box .row {
+    margin: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .mb56 {
+    margin-bottom: 56px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part {
+    background: #fff;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .order_head {
+    padding: 24px;
+    display: block;
+    height: 70px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .order_head h4 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .order_head a {
+    text-align: right;
+    float: right;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363840;
+    color: #F16334;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .order_head a i {
+    font-size: 14px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .divider {
+    opacity: 0.2;
+    width: 100%;
+    color: #000;
+    border: 0.5px solid #000000;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul {
+    width: 100%;
+    height: 72px;
+    padding: 12px;
+    float: none;
+    display: block;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul li {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 4px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul li h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    text-align: left;
+    font-size: 16px;
+    padding: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul li p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    text-align: left;
+    color: #363840;
+    font-size: 16px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul .titles {
+    width: 100%;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul .expl {
+    width: 100%;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .adress_form ul:last-child {
+    padding-bottom: 32px;
+    height: 120px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .no_after::after {
+    display: none;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form {
+    height: 600px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .adress_form h6,
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .adress_form p {
+    font-size: 14px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev {
+    width: 100%;
+    border: 1px solid #DFE3EB;
+    margin-top: 24px;
+    height: 226px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4px 60px;
+    background: #F5F7FA;
+    border: 1px solid #DFE3EB;
+    border-top: 0;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_prev span p {
+    font-family: 'Muli', sans-serif;
+    color: #7B7D84;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 170%;
+    color: #363840;
+    line-height: 15px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_wala {
+    width: 100%;
+    height: 82px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_list {
+    width: 84.55px;
+    height: 48px;
+  }
+  .Placed .p_5_1 .documents .file_box .order_part .described_form .img_list img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Placed .p_5_1 .documents .file_box {
+    width: 100%;
+    height: auto;
+    margin-top: 96px;
+    padding-top: 64px;
+    padding-bottom: 30px !important;
+    text-align: center;
+  }
+  .Placed .p_5_1 .documents .file_box i {
+    display: block;
+    float: none;
+    text-align: center;
+    color: #F16334;
+    font-size: 30px;
+  }
+  .Placed .p_5_1 .documents .file_box h2 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #F16334;
+    font-size: 32px;
+    line-height: 40px;
+    color: #363840;
+  }
+  .Placed .p_5_1 .documents .file_box h6 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7B7D84;
+    padding-bottom: 30px !important;
+  }
+  .Placed .p_5_1 .documents .file_box h6 span {
+    font-weight: 700;
+    color: #363840;
+  }
+  .Placed .p_5_1 .documents .file_box .btn {
+    border-color: #363840;
+    color: #363840 !important;
+    padding: 12px 112px;
+    text-transform: none;
+  }
+  .Placed .p_5_1 .documents .file_box .btn:hover {
+    border-color: #F16334;
+    color: #fff !important;
   }
   /*===============================CSS for Modals==============================*/
   /*===============================Responsive Css Part start here==============================*/
