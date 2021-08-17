@@ -1,0 +1,245 @@
+@import './_varMix.less';
+@import './_webkits.less';
+@import './step-06.less';
+
+.Purchase-Step-7 {
+    .mt80;
+    .Purchase-Step-6;
+
+    .p_5_1 {
+        .documents {
+            .file_box {
+                .bg;
+                height: auto;
+                display: block;
+
+                label {
+                    margin-top: 10px;
+                    width: 100px;
+                    line-height: 18px;
+                    font-size: 14px;
+                }
+
+                .cvv {
+                    width: 32px;
+                }
+
+                .form-group {
+                    position: relative;
+                    margin-bottom: 32px !important;
+                    height: 38px;
+                }
+
+                .form-control {
+                    .h6;
+                    color: @col2;
+                    width: 50%;
+                }
+
+                .mini_box {
+                    width: 88px;
+                }
+
+                .divider {
+                    width: 100%;
+                    height: 1px;
+                    background: #000;
+                    opacity: 0.1;
+                }
+
+                .panel-group-custom {
+                    margin-top: 0;
+                }
+
+                .panel-default {
+                    border: 0;
+                }
+
+                .panel-group.panel-group-corporate {
+                    .panel+.panel {
+                        margin-top: 0;
+                    }
+                }
+
+                .panel-corporate {
+                    .panel-body {
+                        padding: 15px 0 0 16px;
+                    }
+
+                    .panel-title {
+                        a.collapsed {
+                            position: relative;
+                            z-index: 1;
+                            padding: 24px 82px 24px 28px;
+                            .h5;
+                            font-weight: normal;
+                            line-height: 20px;
+                            .tran(0s);
+                            border-radius: 0;
+                        }
+
+                        a {
+                            .h5;
+                            color: @col3;
+                        }
+                    }
+                }
+
+                .payment_head {
+                    padding: 24px;
+
+                    h5 {
+                        .h5;
+                        text-align: left;
+                    }
+                }
+
+                button.cancel {
+                    border-color: @col2;
+                    color: @col2  !important;
+
+                    &:hover {
+                        background: #EAEDF2;
+                        color: #363840 !important;
+                    }
+                }
+
+                button {
+                    padding: 12px 44px;
+                    position: relative;
+                    left: 0;
+                    transform: none;
+                    background: transparent;
+                }
+
+                .card {
+                    border: 0;
+                    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+
+                    &:last-child {
+                        border: 0;
+                    }
+
+                    .row {
+                        margin: 0;
+                    }
+
+                    .bg;
+
+                    .card-header {
+                        padding: 24px 52px;
+                        position: relative;
+                        .bg;
+                        .h5;
+                        color: @col3;
+
+                        &::after {
+                            .after;
+                            top: 25px;
+                            left: 24px;
+                            width: 20px;
+                            height: 20px;
+                            .bor(50%);
+                            transition: transform 0.25s linear;
+                            -webkit-transition: -webkit-transform 0.25s linear;
+                        }
+
+                        &::before {
+                            .after;
+                            top: 30.5px;
+                            left: 29.5px;
+                            width: 10px;
+                            height: 10px;
+                            background: @col3;
+                            .bor(50%);
+                            transition: transform 0.25s linear;
+                            -webkit-transition: -webkit-transform 0.25s linear;
+                        }
+                    }
+
+                    .card-header.collapsed {
+                        font-weight: 400;
+                        color: @col2;
+                    }
+
+                    .card-header[aria-expanded="true"] {
+                        &::after {
+                            border: 2px solid @col3;
+                        }
+
+                        &::before {
+                            display: block;
+                        }
+                    }
+
+                    .card-header[aria-expanded="false"] {
+                        &::after {
+                            border: 2px solid #999BA2;
+                        }
+
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+
+                .miki_box {
+                    width: 18%;
+                    float: left;
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        .confirm_button {
+            margin-top: 30px;
+            display: block;
+            height: 85px;
+            padding: 24px;
+            .bg;
+
+            h5 {
+                .h6;
+                text-align: center;
+
+                a {
+                    color: @col3;
+                    font-weight: 700;
+                }
+            }
+
+            h6 {
+                text-align: left;
+                .h6;
+                float: left;
+                width: 75%;
+            }
+
+            a {
+                text-align: right;
+                color: @col3;
+                font-weight: 700;
+            }
+
+            form {
+                .promo {
+                    width: 242px;
+                    height: 34px;
+                    border: 1px solid #363840;
+                    .h6;
+                    line-height: 18px;
+                    letter-spacing: 0.13em;
+                    color: #363840;
+                    padding: 8px 16px;
+                    margin-right: 16px;
+                }
+
+                .apply {
+                    .h6;
+                    font-weight: 700;
+                    color: @col3;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+@import url('./_varMix.less');
+@import url('./_webkits.less');
+
+.pricing_1 {
+    .mt80;
+
+    .partnership {
+        .pt56;
+        .pb96;
+        background: @col5;
+
+        .cmn_heading {
+            padding-bottom: 41px;
+            width: 33%;
+            height: 68px;
+        }
+
+        .partner_slider {
+            .col-md-4 {
+                padding: 15px;
+            }
+
+            .partner_slide {
+                .bg;
+                width: 100% !important;
+                height: 526px;
+                position: relative;
+                .tran(0.25s);
+
+                &:hover {
+                    .shadow(@x: 0, @y: 14px, @blur: 27px, @spread: -8px, @alpha: 0.75);
+                }
+
+                &:hover::after {
+                    display: none;
+                }
+
+                .partner_img {
+                    width: 100%;
+                    height: 233px;
+                    background: @col5;
+
+                    img {
+                        .img_css;
+                    }
+                }
+
+                .partner_text {
+                    padding: 0;
+                    position: relative;
+                    height: 58%;
+
+                    .title {
+                        height: 64px;
+                        display: block;
+                        .mini_head;
+                        width: 100%;
+                        padding: 0;
+                        overflow-x: hidden;
+                        text-align: center;
+                        .bottom_line;
+
+                        h5 {
+                            line-height: 63px;
+                        }
+                    }
+
+                    .text_part {
+                        padding-top: 12px;
+                        padding-bottom: 24px;
+
+                        .price_full {
+                            padding: 6px 24px;
+                            height: 48px;
+                            .bottom_line;
+
+                            .price_box {
+                                height: 100%;
+
+                                h6 {
+                                    .h6;
+                                    color: #999BA2;
+
+                                    span {
+                                        font-weight: 700;
+                                        color: #000;
+                                    }
+                                }
+                            }
+
+                            .tleft {
+                                h6 {
+                                    text-align: left;
+                                }
+                            }
+
+                            .tright {
+                                h6 {
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }
+
+                    .btn {
+                        text-align: center;
+                        position: absolute;
+                        bottom: 8%;
+                        padding: 8px 43px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+    }
+}

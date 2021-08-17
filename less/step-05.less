@@ -1,0 +1,91 @@
+@import './_varMix.less';
+@import './_webkits.less';
+@import './step-04.less';
+
+.Purchase-Step-5 {
+    .mt80;
+    .Purchase-Step-4a;
+
+    .p_5_1 {
+        .documents {
+            .file_box {
+                padding: 0;
+                border: 0;
+                width: 100%;
+                height: 100%;
+
+                input {
+                    .h6;
+                    color: @col2;
+                }
+
+                label {
+                    .h6;
+                    font-size: 15px;
+                    color: @col4;
+
+                    p {
+                        .p;
+                        line-height: 25px;
+                        color: @col2;
+
+                        a {
+                            color: @col3;
+                        }
+                    }
+                }
+
+                .form-control {
+                    padding: 6px 16px;
+                    border-radius: 0;
+                    background: #FCFDFE;
+                    border: 1px solid #DFE3EB;
+                    width: 100%;
+
+                    &:focus {
+                        border: 1px solid @col2;
+                        box-shadow: none;
+                    }
+                }
+
+                textarea {
+                    padding: 8px 16px;
+                    width: 100%;
+                    height: 64px;
+                }
+
+                .form-row {
+                    .form-group.col-md-6 {
+                        &:first-child {
+                            padding-right: 0;
+                        }
+
+                        &:last-child {
+                            padding-left: 20px;
+                        }
+                    }
+                }
+
+                .custom-control-label {
+                    &::after {
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+                    }
+                }
+
+                .custom-control-input:focus~.custom-control-label {
+                    &::before {
+                        box-shadow: none;
+                    }
+                }
+
+                .custom-control-input:checked~.custom-control-label {
+                    &::before {
+                        color: #fff;
+                        border-color: #F16334;
+                        background-color: #F16334;
+                    }
+                }
+            }
+        }
+    }
+}
